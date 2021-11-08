@@ -1,6 +1,8 @@
-<h2>Greetings!</h2>
-	I am a Software Engineer, gamer, art enthusiast, violin player, and my alter ego is a medievalist.<br/>
-	
+<h1>Greetings!</h1>
+	<h3>My name is Juliana, and I live in Ontario, Canada. I am looking for innovation, new opportunities, and challenging projects.</h3>
+	I have been a technology enthusiast since childhood. I published my first website in my fifteens during my technical high school in Data Processing.<br/>
+	I have bachelor's degree in Computer Science, two graduate certificates in Software Engineering, and Project Management.<br/>
+	Then, I accumulated ten years of experience, as a developer, business analyst, and finally, a technical leader.<br/>
 <br/>
 Languages that I know besides Portuguese  and English:<br/>
 

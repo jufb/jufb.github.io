@@ -1,8 +1,8 @@
 <b>Greetings! Olá!</b><br/>
 My name is Juliana, and I live in Ontario, Canada. I am looking for innovation, new opportunities, and challenging projects.<br/>
 I have been a technology enthusiast since childhood. I published my first website in my fifteens during my technical high school in Data Processing.<br/>
+I have accumulated ten years of experience, being a software engineer and also a technical leader.<br/>
 I have bachelor's degree in Computer Science, two graduate certificates in Software Engineering, and Project Management.<br/>
-Then, I accumulated ten years of experience, as a developer, business analyst, and finally, a technical leader.<br/>
 <br/>
 Languages that I know besides Portuguese and English:<br/>
 
@@ -23,3 +23,7 @@ Editors that I prefer to work with:<br/>
 <a href="https://www.linkedin.com/in/fborgesj/" target="_blank">
 ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)
 </a>
+
+<i>"Leaders must inspire and motivate to raise new leaders."<br/>
+  -Juliana
+</i>

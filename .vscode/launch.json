@@ -7,8 +7,8 @@
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Open index.html",
-            "file": "/Users/Juliana/Documents/GitHub/jufb.github.io/JS/index.html"
+            "name": "Open ReactPage.html",
+            "file": "/Users/Juliana/Projects/GitHub/jufb.github.io/ReactPage.html"
         }
     ]
 }

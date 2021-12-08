@@ -1,11 +1,9 @@
-import './assets/jufb-bootstrap.css';
 import { React } from 'react';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 import { Home } from './views/home';
 import { About } from './views/about';
 import { Projects } from './views/portfolio/projects';
-import { ProjectManagement } from './views/portfolio/project_management';
 
 function App() {
   return (

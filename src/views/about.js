@@ -6,12 +6,12 @@ export const About = () => {
     <main role="main">
       <div className="notso-transparent jumbotron jumbotron-fluid">
       <Container>
+        <a id="About"><h1>About Me</h1></a>
         <Row className="align-items-center justify-content-center">
           <Col md>
             <Image className="figure-img" roundedCircle src="jufb-pic.jpg" fluid />
           </Col>
           <Col>
-            <a id="About"><h1>About Me</h1></a>
             <Alert variant="success">
               <Alert.Heading>Software Engineer</Alert.Heading>
                 I am looking for opportunities that promote diversity, equality, and inclusion, with interesting and challenging projects.
@@ -32,15 +32,15 @@ export const About = () => {
           </Col>
         </Row>
         </Container>
+      </div>
         <Container fluid className="bg-primary" style={{ padding: 50 }}>
-          <Container className="bg-light" style={{ padding: 50 }}>
+          <Container fluid className="bg-light" style={{ padding: 50 }}>
             <blockquote className="blockquote mb-0">
             <h3 className="font-italic">"Leaders must inspire and motivate to raise new leaders."</h3>
             <h3 className="blockquote-footer">Juliana</h3>
             </blockquote>
           </Container>
-      </Container>
-      </div>
+        </Container>
     </main>
   );
 }

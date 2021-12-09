@@ -4,29 +4,27 @@ import { Container, Card, Button, CardGroup, Alert
 export let Projects = () => {
   return (
     <main role="main">
-      <div className="notso-transparent jumbotron jumbotron-fluid">
+      <div className="bg-white jumbotron jumbotron-fluid">
       <Container>
         <a id="Projects"><h1>Coding Projects</h1></a>
-        <Alert variant="primary">
+        <Alert variant="secondary">
           View all my projects on <Alert.Link href="https://github.com/jufb?tab=repositories">Github</Alert.Link>.
         </Alert>
-        <Card className="text-center">
-          <Card.Header as="h5">Featured</Card.Header>
+        <Card border="primary" bg="light" className="text-center">
+          <Card.Header as="h4">Featured</Card.Header>
           <Card.Body>
             <Card.Title>My Portfolio</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">React-Bootstrap</Card.Subtitle>
             <Card.Text>
-              How I structured this website.
+              How I structured this website using React and Bootstrap.
             </Card.Text>
             <Button variant="primary" href="https://jufb.github.io" target="_blank">View Live</Button>&nbsp;
             <Button variant="secondary" href="https://github.com/jufb/jufb.github.io" target="_blank">Open Code</Button>
           </Card.Body>
         </Card>
-        <CardGroup>
+        <CardGroup className="text-center">
           <Card>
             <Card.Body>
               <Card.Title>Lighthouse Python Course</Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">A Lighthouse Labs Course</Card.Subtitle>
               <Card.Text>
                 Coding tests executed during a Python Course.
               </Card.Text>
@@ -36,7 +34,6 @@ export let Projects = () => {
           <Card>
             <Card.Body>
               <Card.Title>C# Solutions</Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">C# challenges</Card.Subtitle>
               <Card.Text>
                 Solving challenges on LeetCode and HackerRank.
               </Card.Text>

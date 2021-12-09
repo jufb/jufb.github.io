@@ -129,7 +129,7 @@ h3,
 h4,
 h5,
 h6 {
-	margin-top: 0.5rem;
+	margin-top: 0rem;
 	margin-bottom: 1rem;
 }
 
@@ -434,9 +434,11 @@ h6,
 
 h1,
 .h1 {
-	font-size: 4rem;
+	font-size: 4.5rem;
 	padding-bottom: 2rem;
-	font-family: 'Lobster Two', cursive;}
+	font-family: 'Lobster Two';
+	text-align: center;
+}
 
 h2,
 .h2 {
@@ -3252,7 +3254,7 @@ tbody.collapse.show {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
-	padding: 0.5rem 1rem;
+	padding: 0rem 1rem;
 }
 
 .navbar>.container,
@@ -7910,7 +7912,7 @@ a.bg-dark:hover {
 
 .font-italic {
 	font-style: italic;
-	font-family: 'Lobster Two', cursive;
+	font-family: 'Lobster Two';
 }
 
 .text-white {
@@ -8161,5 +8163,5 @@ a.text-dark:hover {
 
 /* Personalized tags */
 .notso-transparent {
-	background-color:#d6d6d6bb;
+	background-color:#ffffffbb;
 }

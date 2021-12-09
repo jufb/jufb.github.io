@@ -17,11 +17,11 @@ export const Header = () => {
           <Navbar.Collapse className="navbarScroll">
             <Nav navbarScroll>
               <Nav.Link href="#Home">Home</Nav.Link>
+              <Nav.Link href="#About">About Me</Nav.Link>
               <NavDropdown title="Portfolio" id="navbarScrollingDropdown">
                 <NavDropdown.Item href="#Projects">Coding Projects</NavDropdown.Item>
-                <NavDropdown.Item href="#ProjectManagement" disabled>Project Management</NavDropdown.Item>
+                <NavDropdown.Item href="#ProjectManagement">Project Management</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#About">About Me</Nav.Link>
             </Nav>
         </Navbar.Collapse>
         </Container>

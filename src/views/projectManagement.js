@@ -3,13 +3,14 @@ import { Container, Card, Button, CardGroup, Image
 
 export let ProjectManagement = () => {
   return (
-    <main role="main">
-      <div className="bg-white jumbotron jumbotron-fluid">
-      <Container>
-        <a id="ProjectManagement"><h1>Project Mgmt.</h1></a>
+    <main role="main" className='bg-light'>
+      <a id="ProjectManagement"></a>
+      <Container fluid className="jumbotron">
+        <h1>Project Mgmt.</h1>
         <p>This content was collected and produced in an academic environment.</p>
+
         <CardGroup className="text-center">
-          <Card border="white">
+          <Card border="white" style={{margin: 5}}>
             <Card.Body>
               <Image roundedCircle src="https://static.wixstatic.com/media/249783_05fae16609b94f278d9d30775292b0af~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01/249783_05fae16609b94f278d9d30775292b0af~mv2.webp" />
               <Card.Title>Project Management Plan</Card.Title>
@@ -19,7 +20,7 @@ export let ProjectManagement = () => {
               <Button variant="secondary" href="https://7a82a82f-cf8f-4312-8995-c0cc5a3a04ce.filesusr.com/ugd/249783_d643525c2ce54bf8b34fd4ee5f7c3be1.pdf" target="_blank" >Open</Button>
             </Card.Body>
           </Card>
-          <Card border="white">
+          <Card border="white" style={{margin: 5}}>
             <Card.Body>
               <Image roundedCircle src="https://static.wixstatic.com/media/249783_12a4e4a88ed54ac3be46780f49287445~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01/249783_12a4e4a88ed54ac3be46780f49287445~mv2.webp" />
               <Card.Title>Scope Management Plan</Card.Title>
@@ -29,7 +30,7 @@ export let ProjectManagement = () => {
               <Button variant="secondary" href="https://7a82a82f-cf8f-4312-8995-c0cc5a3a04ce.filesusr.com/ugd/249783_b5bb8d0ddb4f4785b569a8a477841f62.pdf" target="_blank" >Open</Button>
             </Card.Body>
           </Card>
-          <Card border="white">
+          <Card border="white" style={{margin: 5}}>
             <Card.Body>
               <Image roundedCircle src="https://static.wixstatic.com/media/1bb4dc9b114141ca8b5cecb62103c72f.jpg/v1/fill/w_200,h_200,al_c,q_80,usm_0.66_1.00_0.01/1bb4dc9b114141ca8b5cecb62103c72f.webp" />
               <Card.Title>Stakeholder Management Plan</Card.Title>
@@ -41,7 +42,7 @@ export let ProjectManagement = () => {
           </Card>
           </CardGroup>
           <CardGroup className="text-center">
-          <Card border="white">
+          <Card border="white" style={{margin: 5}}>
             <Card.Body>
               <Image roundedCircle src="https://static.wixstatic.com/media/249783_669898d952624f42beb31498efae01a3~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01/249783_669898d952624f42beb31498efae01a3~mv2.webp" />
               <Card.Title>Project Procurement Schedule</Card.Title>
@@ -51,7 +52,7 @@ export let ProjectManagement = () => {
               <Button variant="secondary" href="https://7a82a82f-cf8f-4312-8995-c0cc5a3a04ce.filesusr.com/ugd/249783_e72e772111294d579f963af84ea7bf32.pdf" target="_blank" >Open</Button>
             </Card.Body>
           </Card>
-          <Card border="white">
+          <Card border="white" style={{margin: 5}}>
             <Card.Body>
               <Image roundedCircle src="https://static.wixstatic.com/media/249783_947e7a8e7f714c18914da42e5aaac962~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01/249783_947e7a8e7f714c18914da42e5aaac962~mv2.webp" />
               <Card.Title>Project Schedule</Card.Title>
@@ -61,7 +62,7 @@ export let ProjectManagement = () => {
               <Button variant="secondary" href="https://7a82a82f-cf8f-4312-8995-c0cc5a3a04ce.filesusr.com/ugd/249783_36a073c36aa747c595c3dbe2da34242b.pdf" target="_blank" >Open</Button>
             </Card.Body>
           </Card>
-          <Card border="white">
+          <Card border="white" style={{margin: 5}}>
             <Card.Body>
               <Image roundedCircle src="https://static.wixstatic.com/media/249783_db3db8325d3c4cf2bda713663a4bcf60~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01/249783_db3db8325d3c4cf2bda713663a4bcf60~mv2.webp" />
               <Card.Title>Risk Register</Card.Title>
@@ -73,7 +74,7 @@ export let ProjectManagement = () => {
           </Card>
           </CardGroup>
           <CardGroup className="text-center">
-          <Card border="white">
+          <Card border="white" style={{margin: 5}}>
             <Card.Body>
               <Image roundedCircle src="https://static.wixstatic.com/media/249783_707793262f534fb7a462209fc72b1b48~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01/249783_707793262f534fb7a462209fc72b1b48~mv2.webp" />
               <Card.Title>Project Presentation</Card.Title>
@@ -83,7 +84,7 @@ export let ProjectManagement = () => {
               <Button variant="secondary" href="https://7a82a82f-cf8f-4312-8995-c0cc5a3a04ce.filesusr.com/ugd/249783_1fa0930a9274454fbc368bf9c74e7a90.ppsx?dn=Project%20Presentation.ppsx" target="_blank" >Open</Button>
             </Card.Body>
           </Card>
-          <Card border="white">
+          <Card border="white" style={{margin: 5}}>
             <Card.Body>
               <Image roundedCircle src="https://static.wixstatic.com/media/249783_5bbf37184ac34f979b4c8a83bef7adb6~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01/249783_5bbf37184ac34f979b4c8a83bef7adb6~mv2.webp" />
               <Card.Title>Lessons Learned</Card.Title>
@@ -94,8 +95,8 @@ export let ProjectManagement = () => {
             </Card.Body>
           </Card>
         </CardGroup>
+        
       </Container>
-      </div>
     </main> 
   );
 }

@@ -1,31 +1,55 @@
-import { Navbar, Nav, NavDropdown, Container
+import { Navbar, Nav, Container
       } from 'react-bootstrap';
+import { Envelope, Linkedin, Github } from 'react-bootstrap-icons';
 
 export const Header = () => {
   return (
     <header>
-      <Navbar sticky="top" expand="md" bg="white">
-        <Container fluid>
-          <Navbar.Brand href="/">
-            <img src="logo.webp"
-              width="80"
-              height="80"
-              alt="Juliana F. Borges"
-            />
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse className="navbarScroll">
-            <Nav navbarScroll>
+      <Navbar collapseOnSelect sticky="top" expand="sm" bg="dark" variant="dark">
+      <Container>
+        <Navbar.Brand href="/">
+          <img src="favicon.ico"
+            width="50"
+            height="50"
+            alt="Juliana F. Borges"
+          />
+        </Navbar.Brand>
+
+        <Navbar.Toggle />
+
+        <Container>
+        <Navbar.Collapse>
+          <Nav fill>
+            <Nav.Item>
               <Nav.Link href="#Home">Home</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
               <Nav.Link href="#About">About Me</Nav.Link>
-              <NavDropdown title="Portfolio" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#Projects">Coding Projects</NavDropdown.Item>
-                <NavDropdown.Item href="#ProjectManagement">Project Management</NavDropdown.Item>
-              </NavDropdown>
-            </Nav>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link href="#Projects">Coding Projects</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link href="#ProjectManagement">Project Management</Nav.Link>
+            </Nav.Item>
+          </Nav> 
         </Navbar.Collapse>
         </Container>
+
+        <Nav.Link href="mailto:fborges.j@gmail.com">
+          <Envelope color="white" size="25" />
+        </Nav.Link>
+        <Nav.Link href="https://www.linkedin.com/in/fborgesj/" target="_blank">
+          <Linkedin color="white" size="25" />
+        </Nav.Link>
+        <Nav.Link href="https://github.com/jufb" target="_blank">
+          <Github color="white" size="25" />
+        </Nav.Link>
+
+      </Container>
+
       </Navbar>
+
     </header>
    );
 }

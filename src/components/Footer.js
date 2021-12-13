@@ -9,7 +9,7 @@ export const Footer = () => {
       <>
         <Navbar sticky="bottom" bg="light" variant="light">
           <Container className="justify-content-center">
-            <Navbar.Brand href="#home"><p style={{ paddingTop: 20 }}>© 2021 Juliana F. Borges</p></Navbar.Brand>
+            <Navbar.Brand href="/"><p style={{ paddingTop: 20 }}>© 2021 Juliana F. Borges</p></Navbar.Brand>
             
             <Nav>
               <Nav.Link href="mailto:fborges.j@gmail.com">

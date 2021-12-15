@@ -5,10 +5,11 @@ export let ProjectManagement = () => {
   return (
     <main role="main" className='bg-light'>
       <a id="ProjectManagement"></a>
-      <Container fluid className="jumbotron">
-        <h1>Project Mgmt.</h1>
-        <p>This content was collected and produced in an academic environment.</p>
-
+      <Container className='text-center jumbotron'>
+        <h1 style={{padding: 0}}>Project Mgmt.</h1>
+        This content was collected and produced in an academic environment.
+      </Container>
+      <Container fluid className="text-center">
         <CardGroup className="text-center">
           <Card border="white" style={{margin: 5}}>
             <Card.Body>

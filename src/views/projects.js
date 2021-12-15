@@ -6,10 +6,11 @@ export let Projects = () => {
   return (
     <main role="main" className='bg-warning'>
       <a id="Projects"></a>
-      <Container fluid className="jumbotron text-center">
-        <h1>Coding Projects</h1>
-          <h5>View all my projects on<Button variant="link" href="https://github.com/jufb?tab=repositories" target='_blank'>GitHub<ChevronRight color="currentColor" size="12" /></Button></h5>
-
+      <Container className='text-center jumbotron'>
+        <h1 style={{padding: 0}}>Coding Projects</h1>
+        View all my projects on<Button variant="link" href="https://github.com/jufb?tab=repositories" target='_blank'>GitHub<ChevronRight color="currentColor" size="10" /></Button>
+      </Container>
+      <Container fluid className="text-center" style={{paddingBottom: 15}}>
         <Card bg="light" className="text-center" style={{margin: 5}}>
           <Card.Header as="h4">Featured</Card.Header>
           <Card.Body>

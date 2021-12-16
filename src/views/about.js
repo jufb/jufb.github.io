@@ -7,13 +7,12 @@ export const About = () => {
     <main role="main" className='bg-light'>
       <a id="About"></a>
 
-        <Container className='text-center jumbotron'>
-          <h1 style={{padding: 0}}>About Me</h1>
-          <Button variant="link" href="#Projects">View my portfolio<ChevronRight color="currentColor" size="10" /></Button>
-          <Button variant="link" href="https://1drv.ms/b/s!AquVyDo2_0wmrBEq6lEqC-qJ5gzS" target='_blank'>View my resume<ChevronRight color="currentColor" size="10" /></Button>
-        </Container>
-        <Container>
-          <Row>
+      <Container className='text-center jumbotron'>
+        <h1 style={{padding: 0}}>About Me</h1>
+        <Button variant="link" href="https://1drv.ms/b/s!AquVyDo2_0wmrBEq6lEqC-qJ5gzS" target='_blank'>View my resume<ChevronRight color="currentColor" size="10" /></Button>
+      </Container>
+      <Container style={{paddingBottom: 15}}>
+        <Row>
           <Col md className='text-center'>
             <Image className="figure-img" roundedCircle src="jufb-pic.jpg" fluid />
           </Col>
@@ -32,13 +31,13 @@ export const About = () => {
               </ul>
             </Alert>
             <p>I am Juliana and I live in Ontario, Canada. In my fifteens, I published my first website during my technical high school in Data Processing.
-            <br />I have accumulated over ten years of experience as a Software Engineer, with an emphasis on Business Analysis.</p>
-            <Container fluid className="bg-light align-items-center justify-content-center" style={{ padding: 25 }}>
-              <blockquote className="blockquote mb-0">
+            <br />I have accumulated over ten years of experience as a Software Engineer, with an emphasis on Business Analysis.
+            <Button variant="link" href="#Projects" style={{paddingTop: 5, paddingLeft: 4}}>View my portfolio<ChevronRight color="currentColor" size="10" /></Button></p>
+            
+            <blockquote className="blockquote">
               <h3 className="font-italic">"Leaders must inspire and motivate to raise new leaders."</h3>
               <h3 className="blockquote-footer">Juliana</h3>
             </blockquote>
-            </Container>
           </Col>
         </Row>
       </Container>

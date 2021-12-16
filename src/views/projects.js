@@ -4,14 +4,14 @@ import { ChevronRight } from 'react-bootstrap-icons';
 
 export let Projects = () => {
   return (
-    <main role="main" className='bg-warning'>
+    <main role="main" className='bg-warning text-center'>
       <a id="Projects"></a>
-      <Container className='text-center jumbotron'>
+      <Container className='jumbotron'>
         <h1 style={{padding: 0}}>Coding Projects</h1>
-        View all my projects on<Button variant="link" href="https://github.com/jufb?tab=repositories" target='_blank'>GitHub<ChevronRight color="currentColor" size="10" /></Button>
+        View all my projects on<Button variant="link" href="https://github.com/jufb?tab=repositories" target='_blank' style={{paddingTop: 5, paddingLeft: 4}}>GitHub<ChevronRight color="currentColor" size="10" /></Button>
       </Container>
-      <Container fluid className="text-center" style={{paddingBottom: 15}}>
-        <Card bg="light" className="text-center" style={{margin: 5}}>
+      <Container fluid style={{paddingBottom: 15}}>
+        <Card bg="light" style={{margin: 5}}>
           <Card.Header as="h4">Featured</Card.Header>
           <Card.Body>
             <Card.Title>My Portfolio</Card.Title>
@@ -22,7 +22,7 @@ export let Projects = () => {
             <Button variant="secondary" href="https://github.com/jufb/jufb.github.io" target="_blank">Open Code</Button>
           </Card.Body>
         </Card>
-        <CardGroup className="text-center">
+        <CardGroup>
           <Card style={{margin: 5}}>
             <Card.Body>
               <Card.Title>Lighthouse Python Course</Card.Title>

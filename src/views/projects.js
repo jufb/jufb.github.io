@@ -4,8 +4,7 @@ import { ChevronRight } from 'react-bootstrap-icons';
 
 export let Projects = () => {
   return (
-    <main role="main" className='bg-warning text-center'>
-      <a id="Projects"></a>
+    <main id="Projects" role="main" className='bg-warning text-center'>
       <Container className='jumbotron'>
         <h1 style={{padding: 0}}>Coding Projects</h1>
         View all my projects on<Button variant="link" href="https://github.com/jufb?tab=repositories" target='_blank' style={{paddingTop: 5, paddingLeft: 4}}>GitHub<ChevronRight color="currentColor" size="10" /></Button>
@@ -19,7 +18,7 @@ export let Projects = () => {
               How I structured this website using React and Bootstrap.
             </Card.Text>
             <Button variant="primary" href="https://jufb.github.io" target="_blank">View Live</Button>&nbsp;
-            <Button variant="secondary" href="https://github.com/jufb/jufb.github.io" target="_blank">Open Code</Button>
+            <Button variant="dark" href="https://github.com/jufb/jufb.github.io" target="_blank">Open Code</Button>
           </Card.Body>
         </Card>
         <CardGroup>
@@ -29,7 +28,9 @@ export let Projects = () => {
               <Card.Text>
                 Coding tests executed during a Python Course.
               </Card.Text>
-              <Button variant="outline-secondary" href="https://github.com/jufb/LighthousePythonCourse" target="_blank" >Open Code</Button>
+              <Button variant="outline-dark" href="https://github.com/jufb/LighthousePythonCourse" target="_blank" >
+                Open <span className='sr-only'>Python</span>
+                Code</Button>
             </Card.Body>
           </Card>
           <Card style={{margin: 5}}>
@@ -38,7 +39,9 @@ export let Projects = () => {
               <Card.Text>
                 Solving challenges on LeetCode and HackerRank.
               </Card.Text>
-              <Button variant="outline-secondary" href="https://github.com/jufb/C-Solutions" target="_blank" >Open Code</Button>
+              <Button variant="outline-dark" href="https://github.com/jufb/C-Solutions" target="_blank" >
+                Open <span className='sr-only'>C Sharp</span>
+                Code</Button>
             </Card.Body>
           </Card>
         </CardGroup>

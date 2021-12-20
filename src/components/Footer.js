@@ -13,12 +13,15 @@ export const Footer = () => {
             
             <Nav>
               <Nav.Link href="mailto:fborges.j@gmail.com">
+                <span className='sr-only'>Send me an e-mail</span>
                 <Envelope color="black" size="25" />
               </Nav.Link>
               <Nav.Link href="https://www.linkedin.com/in/fborgesj/" target="_blank">
+                <span className='sr-only'>Visit my LinkedIn profile</span>
                 <Linkedin color="black" size="25" />
               </Nav.Link>
               <Nav.Link href="https://github.com/jufb" target="_blank">
+                <span className='sr-only'>Visit my GitHub profile</span>
                 <Github color="black" size="25" />
               </Nav.Link>
             </Nav>

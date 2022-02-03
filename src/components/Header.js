@@ -5,8 +5,8 @@ import { Envelope, Linkedin, Github } from 'react-bootstrap-icons';
 export const Header = () => {
   return (
     <header>
-      <Navbar collapseOnSelect sticky="top" expand="sm" bg="dark" variant="dark">
-      <Container>
+      <Navbar collapseOnSelect sticky="top" expand="lg" bg="dark" variant="dark">
+      <Container style={{padding:0}}>
         <Navbar.Brand href="/">
           <img src="favicon.ico"
             width="50"
@@ -17,14 +17,14 @@ export const Header = () => {
 
         <Navbar.Toggle />
 
-        <Container>
+        <Container style={{padding:0}}>
           <Navbar.Collapse>
             <Nav fill>
               <Nav.Item>
                 <Nav.Link href="#Home">Home</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="#About">About Me</Nav.Link>
+                <Nav.Link href="#About">About</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link href="#Projects">Coding Projects</Nav.Link>

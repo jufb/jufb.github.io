@@ -1,4 +1,4 @@
-import { Container, Image, Row, Col, Alert, Button
+import { Container, Image, Row, Col, Button
 } from 'react-bootstrap';
 import { ChevronRight } from 'react-bootstrap-icons';
 
@@ -6,45 +6,36 @@ export const About = () => {
   return (
     <main id="About" role="main" className='bg-light'>
       <Container className='text-center jumbotron'>
-        <h1 style={{padding: 0}}>About Me</h1>
-        <Button variant="link" href="https://1drv.ms/b/s!AquVyDo2_0wmrBEq6lEqC-qJ5gzS" target='_blank'>
-          View my resume
-          <ChevronRight color="currentColor" size="10" />          
-        </Button>
+        <h1 style={{padding: 0}}>About</h1>
+        Software Engineer. <Button variant="link" href="https://1drv.ms/b/s!AquVyDo2_0wmrBEq6lEqC-qJ5gzS" target='_blank' style={{paddingTop: 5, paddingLeft: 4}}>Open my resume/CV<ChevronRight color="currentColor" size="11" /></Button>
       </Container>
-      <Container style={{paddingBottom: 15}}>
+      <Container>
         <Row>
-          <Col md className='text-center'>
+          <Col>
+            <h4>Hi, my name is Juliana...</h4>
+            And I live in Ontario, Canada. I have accumulated 10+ years of experience as a Software Engineer, with an emphasis on Business Analysis.
+            <p>What I am looking right now are opportunities that promote diversity, equality, and inclusion.</p>
+          </Col>
+          <Col style={{minWidth: 340, paddingBottom: 40}} className="text-center">
             <Image className="figure-img" roundedCircle src="jufb-pic.jpg" alt='Juliana F. Borges picture.' fluid />
           </Col>
           <Col>
-            <Alert variant="info">
-            <Alert.Heading>Software Engineer</Alert.Heading>
-              Dedicated professional with 10+ years of experience. I am looking for opportunities that promote diversity, equality, and inclusion, with interesting and challenging projects.<br />
-              <hr />
-              Soft Skills:
-              <ul>
-                <li>Proactive Self-Starter;</li>
-                <li>Detail-Oriented;</li>
-                <li>Critical Thinker;</li>
-                <li>Organization Skills;</li>
-                <li>Leadership.</li>
-              </ul>
-            </Alert>
-            <p>I am Juliana and I live in Ontario, Canada. In my fifteens, I published my first website during my technical high school in Data Processing.
-              <br />I have accumulated over ten years of experience as a Software Engineer, with an emphasis on Business Analysis.
-              <Button variant="link" href="#Projects" style={{paddingTop: 5, paddingLeft: 4}}>
-                View my portfolio
-                <ChevronRight color="currentColor" size="10" />
-              </Button>
-            </p>
-            
-            <blockquote className="blockquote">
-              <h3 className="font-italic">"Leaders must inspire and motivate to raise new leaders."</h3>
-              <h3 className="blockquote-footer">Juliana</h3>
-            </blockquote>
+            <h5>My Soft Skills</h5>
+            <ul>
+              <li>Proactive Self-Starter;</li>
+              <li>Detail-Oriented;</li>
+              <li>Critical Thinker;</li>
+              <li>Organization Skills;</li>
+              <li>Leadership;</li>
+              <li>Art lover, putting creativity into practice.</li>
+            </ul>
           </Col>
         </Row>
+        <hr /> 
+        <blockquote className="blockquote">
+          <h3 className="font-italic">"Leaders must inspire and motivate to raise new leaders."</h3>
+          <h3 className="blockquote-footer">Juliana</h3>
+        </blockquote>
       </Container>
     </main>
   );

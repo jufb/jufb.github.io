@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+ /* @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
  @media print {
 	*,
 	*::before,
@@ -101,16 +101,10 @@ section {
 body {
 	margin: 0;
 	font-family: avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-	font-size: 1rem;
+	font-size: 1.1rem;
 	font-weight: normal;
 	line-height: 1.5;
 	color: #212529;
-	/* background-color: #fff;
-	text-align: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: left 6rem;
-	background-image: url("https://images.unsplash.com/photo-1503045666024-95470ad39b81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80"); */
 }
 
 [tabindex="-1"]:focus {
@@ -129,7 +123,7 @@ h3,
 h4,
 h5,
 h6 {
-	margin-top: 0rem;
+	margin-top: 1rem;
 	margin-bottom: 1rem;
 }
 
@@ -436,7 +430,6 @@ h1,
 .h1 {
 	font-size: 4.5rem;
 	padding-bottom: 2rem;
-	font-family: 'Lobster Two';
 	text-align: center;
 }
 
@@ -572,8 +565,9 @@ mark,
 }
 
 .figure-img {
-	margin-bottom: 0.5rem;
-	line-height: 1;
+	border-color: #b67e85;
+	border-style: solid;
+	border-width: 1rem;
 }
 
 .figure-caption {
@@ -642,7 +636,9 @@ pre code {
 	margin-left: auto;
 	padding-right: 15px;
 	padding-left: 15px;
+	padding-bottom: 30px;
 	width: 100%;
+	min-width: 100px;
 }
 
 @media (min-width: 576px) {
@@ -676,6 +672,8 @@ pre code {
 	padding-right: 15px;
 	padding-left: 15px;
 	width: 100%;
+	padding-bottom: 30px;
+	min-width: 100px;
 }
 
 .row {
@@ -1920,7 +1918,7 @@ select.form-control-lg:not([size]):not([multiple]),
 	user-select: none;
 	border: 1px solid transparent;
 	padding: 0.5rem 0.75rem;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	line-height: 1.25;
 	border-radius: 0.25rem;
 	transition: all 0.15s ease-in-out;
@@ -3624,9 +3622,9 @@ tbody.collapse.show {
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	min-width: 0;
-	word-wrap: break-word;
-	background-color: #fff;
+	min-width: 330px;
+	word-wrap: normal;
+	background-color: rgba(255, 255, 255, 0.774);
 	background-clip: border-box;
 	border: 1px solid rgba(0, 0, 0, 0.125);
 	border-radius: 0.25rem;
@@ -3750,37 +3748,11 @@ tbody.collapse.show {
 	}
 	.card-group .card {
 		flex: 1 0 0%;
+		border-radius: 0.25rem;
 	}
 	.card-group .card+.card {
 		margin-left: 0;
 		border-left: 0;
-	}
-	.card-group .card:first-child {
-		border-top-right-radius: 0;
-		border-bottom-right-radius: 0;
-	}
-	.card-group .card:first-child .card-img-top {
-		border-top-right-radius: 0;
-	}
-	.card-group .card:first-child .card-img-bottom {
-		border-bottom-right-radius: 0;
-	}
-	.card-group .card:last-child {
-		border-top-left-radius: 0;
-		border-bottom-left-radius: 0;
-	}
-	.card-group .card:last-child .card-img-top {
-		border-top-left-radius: 0;
-	}
-	.card-group .card:last-child .card-img-bottom {
-		border-bottom-left-radius: 0;
-	}
-	.card-group .card:not(:first-child):not(:last-child) {
-		border-radius: 0;
-	}
-	.card-group .card:not(:first-child):not(:last-child) .card-img-top,
-	.card-group .card:not(:first-child):not(:last-child) .card-img-bottom {
-		border-radius: 0;
 	}
 }
 
@@ -7916,7 +7888,7 @@ a.bg-dark:hover {
 
 .font-italic {
 	font-style: italic;
-	font-family: 'Lobster Two';
+	/* font-family: 'Lobster Two'; */
 }
 
 .text-white {
@@ -8167,5 +8139,19 @@ a.text-dark:hover {
 
 /* Personalized tags */
 .notso-transparent {
-	background-color:#000;
+	background-color: rgba(117, 190, 218, 0.5);
+}
+
+.coding-projects {
+	background-image: url("codingjufb.jpg");
+	background-color: #fff;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.card-footer-transparent {
+	border: 0;
+	background-color: transparent;
 }

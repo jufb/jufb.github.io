@@ -125,6 +125,7 @@ h5,
 h6 {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+	padding: 0;
 }
 
 p {
@@ -429,7 +430,6 @@ h6,
 h1,
 .h1 {
 	font-size: 4.5rem;
-	padding-bottom: 2rem;
 	text-align: center;
 }
 
@@ -3680,7 +3680,7 @@ tbody.collapse.show {
 .card-footer {
 	padding: 0.75rem 1.25rem;
 	background-color: rgba(0, 0, 0, 0.03);
-	border-top: 1px solid rgba(0, 0, 0, 0.125);
+	border-top: 1px solid rgba(255, 255, 255, 0.125);
 }
 
 .card-footer:last-child {
@@ -8139,7 +8139,19 @@ a.text-dark:hover {
 
 /* Personalized tags */
 .notso-transparent {
-	background-color: rgba(117, 190, 218, 0.5);
+    padding: 7% 0% 7% 0%;
+	background-color: rgba(255, 255, 255, 0.582);
+}
+
+.home {
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+	position: relative;
+	background-attachment: fixed;
+	background-image: url("pexels-arthouse-studio-4330083.jpg");
 }
 
 .coding-projects {
@@ -8148,7 +8160,10 @@ a.text-dark:hover {
 	text-align: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: top center;
+	background-position: center;
+	
+	position: relative;
+	background-attachment: fixed;
 }
 
 .card-footer-transparent {

@@ -6,7 +6,7 @@ export const About = () => {
   return (
     <main id="About" role="main" className='bg-light'>
       <Container className='text-center jumbotron'>
-        <h1 style={{padding: 0}}>About</h1>
+        <h1>About</h1>
         Software Engineer. <Button variant="link" href="https://1drv.ms/b/s!AquVyDo2_0wmrBEq6lEqC-qJ5gzS" target='_blank' style={{paddingTop: 5, paddingLeft: 4}}>Open my resume/CV<ChevronRight color="currentColor" size="11" /></Button>
       </Container>
       <Container>

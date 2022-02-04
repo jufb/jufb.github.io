@@ -5,9 +5,10 @@ import { ChevronRight } from 'react-bootstrap-icons';
 export let Projects = () => {
   return (
     <main id="Projects" role="main" className='coding-projects'>
-      <Container className='jumbotron text-light'>
-        <h1 style={{padding: 0}}>Coding Projects</h1>
-        View all my projects on<Button variant="link" className='text-light' href="https://github.com/jufb?tab=repositories" target='_blank' style={{paddingTop: 5, paddingLeft: 4}}>GitHub<ChevronRight color="currentColor" size="11" /></Button>
+    <div className='notso-transparent'>
+      <Container className='jumbotron'>
+        <h1>Coding Projects</h1>
+        View all my projects on<Button variant="link" className='text-dark' href="https://github.com/jufb?tab=repositories" target='_blank' style={{paddingTop: 5, paddingLeft: 4}}>GitHub<ChevronRight color="currentColor" size="11" /></Button>
       </Container>
       <Container fluid>
         <Card bg="light" style={{margin: 5, padding: 20}}>
@@ -64,6 +65,7 @@ export let Projects = () => {
           </Card>
         </CardGroup>
       </Container>
+      </div>
     </main> 
   );
 }

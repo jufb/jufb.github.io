@@ -5,7 +5,7 @@ export let ProjectManagement = () => {
   return (
     <main id="ProjectManagement" role="main" className='bg-dark'>
       <Container className='text-center jumbotron text-light'>
-        <h1 style={{padding: 0}}>Project Mgmt.</h1>
+        <h1>Project Mgmt.</h1>
         This content was collected and produced in an academic environment.
       </Container>
       <Container fluid className="text-center">

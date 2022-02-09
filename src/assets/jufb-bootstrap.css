@@ -72,6 +72,7 @@ html {
 	-ms-text-size-adjust: 100%;
 	-ms-overflow-style: scrollbar;
 	-webkit-tap-highlight-color: transparent;
+	scroll-behavior: smooth;
 }
 
 *,
@@ -100,11 +101,12 @@ section {
 
 body {
 	margin: 0;
-	font-family: avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: avenir, sans-serif;
 	font-size: 1.1rem;
 	font-weight: normal;
 	line-height: 1.5;
 	color: #212529;
+	position: relative;
 }
 
 [tabindex="-1"]:focus {
@@ -564,12 +566,6 @@ mark,
 	display: inline-block;
 }
 
-.figure-img {
-	border-color: #b67e85;
-	border-style: solid;
-	border-width: 1rem;
-}
-
 .figure-caption {
 	font-size: 90%;
 	color: #868e96;
@@ -775,6 +771,7 @@ pre code {
 	flex-basis: 0;
 	flex-grow: 1;
 	max-width: 100%;
+	align-self: center;
 }
 
 .col-auto {
@@ -1918,7 +1915,7 @@ select.form-control-lg:not([size]):not([multiple]),
 	user-select: none;
 	border: 1px solid transparent;
 	padding: 0.5rem 0.75rem;
-	font-size: 1.2rem;
+	font-size: inherit;
 	line-height: 1.25;
 	border-radius: 0.25rem;
 	transition: all 0.15s ease-in-out;
@@ -3180,11 +3177,11 @@ tbody.collapse.show {
 }
 
 .nav-tabs {
-	border-bottom: 1px solid #ddd;
+	border-bottom: 5px solid;
 }
 
 .nav-tabs .nav-item {
-	margin-bottom: -1px;
+	margin-bottom: -5px;
 }
 
 .nav-tabs .nav-link {
@@ -3606,8 +3603,7 @@ tbody.collapse.show {
 }
 
 .navbar-dark .navbar-toggler {
-	color: rosybrown;
-	border-color: rosybrown;
+	color: rgba(187, 137, 143, 1);
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -5238,7 +5234,7 @@ a.bg-light:hover {
 }
 
 .bg-dark {
-	background-color: #343a40 !important;
+	background-color: rgba(0, 0, 0, 0.700) !important; /*#343a40 !important;*/
 }
 
 a.bg-dark:focus,
@@ -8138,35 +8134,79 @@ a.text-dark:hover {
 }
 
 /* Personalized tags */
-.notso-transparent {
-    padding: 7% 0% 7% 0%;
-	background-color: rgba(255, 255, 255, 0.582);
+.figure-img {
+	border-color: #b67e85;
+	border-style: solid;
+	border-width: 1rem;
+	min-width: 300px;
+	margin-bottom: 1rem;
 }
 
-.home {
-	text-align: center;
+#Home {
+	background-image:  linear-gradient(rgba(255, 255, 255, 0.600), rgba(255, 255, 255, 0.600)), url("pexels-arthouse-studio-4330083.jpg"); /*rgba(0, 0, 0, 0.5))*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	
-	position: relative;
 	background-attachment: fixed;
-	background-image: url("pexels-arthouse-studio-4330083.jpg");
+	position: relative;
+	text-align: center;
+	padding-top: 100px;
+	margin-top: -100px;
 }
 
-.coding-projects {
-	background-image: url("codingjufb.jpg");
-	background-color: #fff;
-	text-align: center;
+#Home .container {
+	padding-top: 15%;
+	padding-bottom: 20%;
+}
+
+#Projects {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.600), rgba(255, 255, 255, 0.600)), url("codingjufb.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	
-	position: relative;
 	background-attachment: fixed;
+	position: relative;
+	text-align: center;
+}
+
+#Home::before {
+	content: "";
+	display: block;
+	padding-top: 90px;
+}
+
+#About::before {
+	content: "";
+	display: block;
+	padding-top: 90px;
+}
+
+#Projects::before {
+	content: "";
+	display: block;
+	padding-top: 90px;
+  }
+
+#ProjectManagement::before {
+	content: "";
+	display: block;
+	padding-top: 90px;
 }
 
 .card-footer-transparent {
 	border: 0;
 	background-color: transparent;
+}
+
+.card-project {
+	min-height: 300px;
+	padding: 1rem;
+}
+
+.card-project-portfolio {
+	background-image:  linear-gradient(rgba(255, 255, 255, 0.900), rgba(255, 255, 255, 0.600)), url("jfbLogo.png"); /*rgba(0, 0, 0, 0.5))*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: 0px;
 }

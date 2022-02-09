@@ -4,13 +4,10 @@ import { ChevronDown } from 'react-bootstrap-icons';
 
 export const Home = () => {
   return (
-    <main role="main" id="Home" className='home'>
-      <div className='notso-transparent'>
-
+    <main role="main" id="Home">
       <Container className='jumbotron'>
         <h1>Hi! I am Juliana!</h1>
-      </Container>
-      <Container>
+
         <p>Do you offer innovation, new opportunities, and challenging projects?</p>
         <p>Here I am!</p>
         <p>
@@ -21,7 +18,6 @@ export const Home = () => {
           Learn more <ChevronDown color="currentColor" size="15" />
         </Button>
       </Container>
-      </div>
    </main>
   );
 }

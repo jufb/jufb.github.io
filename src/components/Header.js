@@ -5,9 +5,11 @@ import { Envelope, Linkedin, Github } from 'react-bootstrap-icons';
 export const Header = () => {
   return (
     <header>
-      <Navbar collapseOnSelect sticky="top" expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect fixed="top" expand="md" bg="dark" variant="dark">
       <Container style={{padding:0}}>
-        <Navbar.Brand href="/">
+        <Navbar.Toggle />
+
+        <Navbar.Brand href="/" style={{marginRight:3}}>
           <img src="favicon.ico"
             width="50"
             height="50"
@@ -15,9 +17,7 @@ export const Header = () => {
           />
         </Navbar.Brand>
 
-        <Navbar.Toggle />
-
-        <Container style={{padding:0}}>
+        <Container style={{paddingTop:0, paddingBottom:0}}>
           <Navbar.Collapse>
             <Nav fill>
               <Nav.Item>

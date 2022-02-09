@@ -1,30 +1,29 @@
 import { Container, Card, Button, CardGroup
       } from 'react-bootstrap';
-import { ChevronRight } from 'react-bootstrap-icons';
+import { BoxArrowUpRight } from 'react-bootstrap-icons';
 
 export let Projects = () => {
   return (
-    <main id="Projects" role="main" className='coding-projects'>
-    <div className='notso-transparent'>
+    <main id="Projects" role="main">
       <Container className='jumbotron'>
         <h1>Coding Projects</h1>
-        View all my projects on<Button variant="link" className='text-dark' href="https://github.com/jufb?tab=repositories" target='_blank' style={{paddingTop: 5, paddingLeft: 4}}>GitHub<ChevronRight color="currentColor" size="11" /></Button>
+        View all my projects on<Button variant="link" className='text-dark' href="https://github.com/jufb?tab=repositories" target='_blank' style={{paddingTop: 5, paddingLeft: 4}}>GitHub <BoxArrowUpRight color="currentColor" size="17" /></Button>
       </Container>
       <Container fluid>
-        <Card bg="light" style={{margin: 5, padding: 20}}>
-          <Card.Body>
-            <Card.Title><h4>My Portfolio</h4></Card.Title>
-            <Card.Text>
-              How I structured this website using React and Bootstrap.
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer className="card-footer-transparent">
-            <Button variant="primary" href="https://jufb.github.io" target="_blank">View Live</Button>&nbsp;
-            <Button variant="dark" href="https://github.com/jufb/jufb.github.io" target="_blank">Open Code</Button>
-          </Card.Footer>
-        </Card>
         <CardGroup>
-          <Card style={{margin: 5, padding: 20}}>
+          <Card className="card-project card-project-portfolio" style={{margin: 5}}>
+            <Card.Body>
+              <Card.Title><h4>My Portfolio</h4></Card.Title>
+              <Card.Text>
+                How I structured this website using React and Bootstrap.
+              </Card.Text>
+            </Card.Body>
+            <Card.Footer className="card-footer-transparent">
+              <Button variant="dark" href="https://github.com/jufb/jufb.github.io" target="_blank">Open Code</Button>
+            </Card.Footer>
+          </Card>
+
+          <Card className="card-project" style={{margin: 5}}>
             <Card.Body>
               <Card.Title>Python for C# Developer Course</Card.Title>
               <Card.Text>
@@ -37,7 +36,7 @@ export let Projects = () => {
                 Code</Button>
             </Card.Footer>
           </Card>
-          <Card style={{margin: 5, padding: 20}}>
+          <Card className="card-project" style={{margin: 5}}>
             <Card.Body>
               <Card.Title>Python Course</Card.Title>
               <Card.Text>
@@ -50,7 +49,7 @@ export let Projects = () => {
                 Code</Button>
             </Card.Footer>
           </Card>
-          <Card style={{margin: 5, padding: 20}}>
+          <Card className="card-project" style={{margin: 5}}>
             <Card.Body>
               <Card.Title>C# Solutions</Card.Title>
               <Card.Text>
@@ -65,7 +64,6 @@ export let Projects = () => {
           </Card>
         </CardGroup>
       </Container>
-      </div>
     </main> 
   );
 }

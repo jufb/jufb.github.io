@@ -3,12 +3,12 @@ import { Container, Card, Button, CardGroup, Image
 
 export let ProjectManagement = () => {
   return (
-    <main id="ProjectManagement" role="main" className='bg-dark'>
-      <Container className='text-center jumbotron text-light'>
+    <main id="ProjectManagement" role="main" className='bg-dark text-center'>
+      <Container className='jumbotron text-light'>
         <h1>Project Mgmt.</h1>
         This content was collected and produced in an academic environment.
       </Container>
-      <Container fluid className="text-center">
+      <Container fluid>
         <CardGroup>
           <Card style={{margin: 5}}>
             <Card.Body>

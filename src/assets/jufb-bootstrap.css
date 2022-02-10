@@ -8142,6 +8142,25 @@ a.text-dark:hover {
 	margin-bottom: 1rem;
 }
 
+#Home::before,
+#About::before,
+#Projects::before,
+#ProjectManagement::before,
+#Contact::before,
+#Contact::after  {
+	content: "";
+	display: block;
+	padding-top: 50px;
+}
+
+#Contacts .btn-link {
+	color: #000;
+	text-decoration: none;
+}
+#Contacts .btn-link:hover {
+	color: #94545c;
+}
+
 #Home {
 	background-image:  linear-gradient(rgba(255, 255, 255, 0.600), rgba(255, 255, 255, 0.600)), url("pexels-arthouse-studio-4330083.jpg"); /*rgba(0, 0, 0, 0.5))*/
 	background-repeat: no-repeat;
@@ -8150,14 +8169,8 @@ a.text-dark:hover {
 	background-attachment: fixed;
 	position: relative;
 	text-align: center;
-	padding-top: 100px;
-	margin-top: -100px;
-}
-
-#Home .container {
-	padding-top: 15%;
-	padding-bottom: 20%;
-}
+	padding-top: 10%;
+	padding-bottom: 20%;}
 
 #Projects {
 	background-image: linear-gradient(rgba(255, 255, 255, 0.600), rgba(255, 255, 255, 0.600)), url("codingjufb.jpg");
@@ -8167,30 +8180,6 @@ a.text-dark:hover {
 	background-attachment: fixed;
 	position: relative;
 	text-align: center;
-}
-
-#Home::before {
-	content: "";
-	display: block;
-	padding-top: 90px;
-}
-
-#About::before {
-	content: "";
-	display: block;
-	padding-top: 90px;
-}
-
-#Projects::before {
-	content: "";
-	display: block;
-	padding-top: 90px;
-  }
-
-#ProjectManagement::before {
-	content: "";
-	display: block;
-	padding-top: 90px;
 }
 
 .card-footer-transparent {
@@ -8204,7 +8193,7 @@ a.text-dark:hover {
 }
 
 .card-project-portfolio {
-	background-image:  linear-gradient(rgba(255, 255, 255, 0.900), rgba(255, 255, 255, 0.600)), url("jfbLogo.png"); /*rgba(0, 0, 0, 0.5))*/
+	background-image:  linear-gradient(rgba(255, 255, 255, 0.900), rgba(255, 255, 255, 0.600)), url("jfbLogo.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;

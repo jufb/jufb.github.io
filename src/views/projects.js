@@ -7,13 +7,18 @@ export let Projects = () => {
     <main id="Projects" role="main">
       <Container className='jumbotron'>
         <h1>Coding Projects</h1>
-        View all my projects on<Button variant="link" className='text-dark' href="https://github.com/jufb?tab=repositories" target='_blank' style={{paddingTop: 5, paddingLeft: 4}}>GitHub <BoxArrowUpRight color="currentColor" size="17" /></Button>
+
+        View all my projects on
+        <Button variant="link" className='text-dark' href="https://github.com/jufb?tab=repositories" target='_blank' style={{paddingTop: 5, paddingLeft: 4}}>
+          GitHub <BoxArrowUpRight color="currentColor" size="17" />
+        </Button>
       </Container>
+
       <Container fluid>
         <CardGroup>
           <Card className="card-project card-project-portfolio" style={{margin: 5}}>
+            <Card.Title><h4>My Portfolio</h4></Card.Title>
             <Card.Body>
-              <Card.Title><h4>My Portfolio</h4></Card.Title>
               <Card.Text>
                 How I structured this website using React and Bootstrap.
               </Card.Text>
@@ -24,8 +29,8 @@ export let Projects = () => {
           </Card>
 
           <Card className="card-project" style={{margin: 5}}>
+            <Card.Title><h4>Python for C# Developer Course</h4></Card.Title>
             <Card.Body>
-              <Card.Title>Python for C# Developer Course</Card.Title>
               <Card.Text>
                 Coding tests executed during the course.
               </Card.Text>
@@ -37,8 +42,8 @@ export let Projects = () => {
             </Card.Footer>
           </Card>
           <Card className="card-project" style={{margin: 5}}>
+            <Card.Title><h4>Python Course</h4></Card.Title>
             <Card.Body>
-              <Card.Title>Python Course</Card.Title>
               <Card.Text>
                 Coding tests executed during a python course.
               </Card.Text>
@@ -50,8 +55,8 @@ export let Projects = () => {
             </Card.Footer>
           </Card>
           <Card className="card-project" style={{margin: 5}}>
+            <Card.Title><h4>C# Solutions</h4></Card.Title>
             <Card.Body>
-              <Card.Title>C# Solutions</Card.Title>
               <Card.Text>
                 Solving challenges on LeetCode and HackerRank.
               </Card.Text>

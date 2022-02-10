@@ -1,10 +1,11 @@
 import { React } from 'react';
-import { Footer } from './components/Footer';
 import { Header } from './components/Header';
+import { Footer } from './components/Footer';
 import { Home } from './views/home';
 import { About } from './views/about';
 import { Projects } from './views/projects';
 import { ProjectManagement } from './views/projectManagement';
+import { Contact } from './views/contact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Projects />
       <ProjectManagement />
+      <Contact />
       <Footer />
     </div>
    );

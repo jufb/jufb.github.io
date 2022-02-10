@@ -6,8 +6,11 @@ export const About = () => {
   return (
     <main id="About" role="main" className='bg-light'>
       <Container className='text-center jumbotron'>
-        <span id="works"><h1>About</h1></span>
-        Software Engineer. <Button variant="link" href="https://1drv.ms/b/s!AquVyDo2_0wmrBEq6lEqC-qJ5gzS" target='_blank' style={{paddingTop: 5, paddingLeft: 4}}>Open my resume/CV <BoxArrowUpRight color="currentColor" size="16" /></Button>
+        <h1>About</h1>
+        Software Engineer. 
+        <Button variant="link" href="https://1drv.ms/b/s!AquVyDo2_0wmrBEq6lEqC-qJ5gzS" target='_blank' style={{paddingTop: 5, paddingLeft: 4}}>
+          Open my resume/CV <BoxArrowUpRight color="currentColor" size="16" />
+        </Button>
       </Container>
       <Container>
         <Row>

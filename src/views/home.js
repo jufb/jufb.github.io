@@ -2,7 +2,7 @@ import { Button, Container
       } from 'react-bootstrap';
 import { ChevronDown } from 'react-bootstrap-icons';
 
-export const Home = () => {
+export function Home() {
   return (
     <main role="main" id="Home">
       <Container className='jumbotron'>

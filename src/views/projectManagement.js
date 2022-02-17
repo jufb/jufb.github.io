@@ -1,8 +1,34 @@
-import { Container, Card, Button, CardGroup, Image
-      } from 'react-bootstrap';
+import { useEffect, useState } from 'react';
+import { Container, Card, Button, CardGroup, Image } from 'react-bootstrap';
 
-export let ProjectManagement = () => {
-  return (
+export function ProjectManagement() {
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+  
+  useEffect (() => {
+    setLoading(true);
+    fetch("https://raw.githubusercontent.com/jufb/jufb.github.io/main/src/views/projectMgmt.json")
+      .then(response => {
+        if (!response.ok) {
+            throw new Error("HTTP error " + response.status);
+        }
+        return response.json();
+      })
+      .then(setData)
+      .then (() => setLoading(false))
+      .catch(setError);
+  }, []);
+
+  if(loading)
+    return <h3>Loading...</h3>;
+
+  if(error) {
+    return <pre>{JSON.stringify(error, null, 2)}</pre>;
+  }
+
+  if (data) {
+    return (
     <main id="ProjectManagement" role="main" className='bg-dark text-center'>
       <Container className='jumbotron text-light'>
         <h1>Project Mgmt.</h1>
@@ -10,128 +36,26 @@ export let ProjectManagement = () => {
       </Container>
       <Container fluid>
         <CardGroup>
-          <Card style={{margin: 5}}>
-            <Card.Body>
-              <Image alt="Project Management Plan icon." roundedCircle src="https://static.wixstatic.com/media/249783_05fae16609b94f278d9d30775292b0af~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01/249783_05fae16609b94f278d9d30775292b0af~mv2.webp" />
-              <Card.Title>Project Management Plan</Card.Title>
-              <Card.Text>
-                A complex document containing the entire PMI project lifecycle.
-              </Card.Text>
-            </Card.Body>
-            <Card.Footer className="card-footer-transparent">
-              <Button variant="dark" href="https://7a82a82f-cf8f-4312-8995-c0cc5a3a04ce.filesusr.com/ugd/249783_d643525c2ce54bf8b34fd4ee5f7c3be1.pdf" target="_blank" >
-                Open
-                <span className='sr-only'> Project Management Plan.</span>
-              </Button>
-            </Card.Footer>
-          </Card>
-          <Card style={{margin: 5}}>
-            <Card.Body>
-              <Image alt="Scope Management Plan icon." roundedCircle src="https://static.wixstatic.com/media/249783_12a4e4a88ed54ac3be46780f49287445~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01/249783_12a4e4a88ed54ac3be46780f49287445~mv2.webp" />
-              <Card.Title>Scope Management Plan</Card.Title>
-              <Card.Text>
-                A complex document that follows the PMBOK guide to planning the scope of a project.
-              </Card.Text>
-            </Card.Body>
-            <Card.Footer className="card-footer-transparent">
-              <Button variant="dark" href="https://7a82a82f-cf8f-4312-8995-c0cc5a3a04ce.filesusr.com/ugd/249783_b5bb8d0ddb4f4785b569a8a477841f62.pdf" target="_blank" >
-                Open
-                <span className='sr-only'> Scope Management Plan.</span>
-              </Button>
-            </Card.Footer>
-          </Card>
-          <Card style={{margin: 5}}>
-            <Card.Body>
-              <Image alt="Stakeholder Management Plan icon." roundedCircle src="https://static.wixstatic.com/media/1bb4dc9b114141ca8b5cecb62103c72f.jpg/v1/fill/w_200,h_200,al_c,q_80,usm_0.66_1.00_0.01/1bb4dc9b114141ca8b5cecb62103c72f.webp" />
-              <Card.Title>Stakeholder Management Plan</Card.Title>
-              <Card.Text>
-                A PMBOK document with calculations to rank stakeholders and requirements in order of importance.
-              </Card.Text>
-            </Card.Body>
-            <Card.Footer className="card-footer-transparent">
-              <Button variant="dark" href="https://7a82a82f-cf8f-4312-8995-c0cc5a3a04ce.filesusr.com/ugd/249783_0a1764a9f1a44ee4a3d0437957375fd3.pdf" target="_blank" >
-                Open
-                <span className='sr-only'>Stakeholder Management Plan.</span>
-              </Button>
-            </Card.Footer>
-          </Card>
-          <Card style={{margin: 5}}>
-            <Card.Body>
-              <Image alt="Project Procurement Schedule icon." roundedCircle src="https://static.wixstatic.com/media/249783_669898d952624f42beb31498efae01a3~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01/249783_669898d952624f42beb31498efae01a3~mv2.webp" />
-              <Card.Title>Project Procurement Schedule</Card.Title>
-              <Card.Text>
-              A project schedule to procure laptops with negotiations and meetings.
-              </Card.Text>
-            </Card.Body>
-            <Card.Footer className="card-footer-transparent">
-              <Button variant="dark" href="https://7a82a82f-cf8f-4312-8995-c0cc5a3a04ce.filesusr.com/ugd/249783_e72e772111294d579f963af84ea7bf32.pdf" target="_blank" >
-                Open
-                <span className='sr-only'>Project Procurement Schedule.</span>
-              </Button>
-            </Card.Footer>
-          </Card>
-          <Card style={{margin: 5}}>
-            <Card.Body>
-              <Image alt="Project Schedule icon." roundedCircle src="https://static.wixstatic.com/media/249783_947e7a8e7f714c18914da42e5aaac962~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01/249783_947e7a8e7f714c18914da42e5aaac962~mv2.webp" />
-              <Card.Title>Project Schedule</Card.Title>
-              <Card.Text>
-                A project schedule with Gantt Chart to execute a market research.
-              </Card.Text>
-            </Card.Body>
-            <Card.Footer className="card-footer-transparent">
-              <Button variant="dark" href="https://7a82a82f-cf8f-4312-8995-c0cc5a3a04ce.filesusr.com/ugd/249783_36a073c36aa747c595c3dbe2da34242b.pdf" target="_blank" >
-                Open
-                <span className='sr-only'>Project Schedule.</span>
-              </Button>
-            </Card.Footer>
-          </Card>
-          <Card style={{margin: 5}}>
-            <Card.Body>
-              <Image alt="Risk Register icon." roundedCircle src="https://static.wixstatic.com/media/249783_db3db8325d3c4cf2bda713663a4bcf60~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01/249783_db3db8325d3c4cf2bda713663a4bcf60~mv2.webp" />
-              <Card.Title>Risk Register</Card.Title>
-              <Card.Text>
-                An Excel file containing a log of risks with qualitative and quantitative analysis.
-              </Card.Text>
-            </Card.Body>
-            <Card.Footer className="card-footer-transparent">
-              <Button variant="dark" href="https://7a82a82f-cf8f-4312-8995-c0cc5a3a04ce.filesusr.com/ugd/249783_bf17c3b7209a4209b98333ad4b456b73.xlsx?dn=Risk%20Register.xlsx" target="_blank" >
-                Open
-                <span className='sr-only'>Risk Register.</span>
-              </Button>
-            </Card.Footer>
-          </Card>
-          <Card style={{margin: 5}}>
-            <Card.Body>
-              <Image alt="Project Presentation icon." roundedCircle src="https://static.wixstatic.com/media/249783_707793262f534fb7a462209fc72b1b48~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01/249783_707793262f534fb7a462209fc72b1b48~mv2.webp" />
-              <Card.Title>Project Presentation</Card.Title>
-              <Card.Text>
-                A project presentation of the entire project lifecycle with milestones.
-              </Card.Text>
-            </Card.Body>
-            <Card.Footer className="card-footer-transparent">
-              <Button variant="dark" href="https://7a82a82f-cf8f-4312-8995-c0cc5a3a04ce.filesusr.com/ugd/249783_1fa0930a9274454fbc368bf9c74e7a90.ppsx?dn=Project%20Presentation.ppsx" target="_blank" >
-                Open
-                <span className='sr-only'>Project Presentation.</span>
-              </Button>
-            </Card.Footer>
-          </Card>
-          <Card style={{margin: 5}}>
-            <Card.Body>
-              <Image alt="Lessons Learned icon." roundedCircle src="https://static.wixstatic.com/media/249783_5bbf37184ac34f979b4c8a83bef7adb6~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01/249783_5bbf37184ac34f979b4c8a83bef7adb6~mv2.webp" />
-              <Card.Title>Lessons Learned</Card.Title>
-              <Card.Text>
-              A document with lessons learned in teamwork to put into practice in the next projects.
-              </Card.Text>
-            </Card.Body>
-            <Card.Footer className="card-footer-transparent">
-              <Button variant="dark" href="https://7a82a82f-cf8f-4312-8995-c0cc5a3a04ce.filesusr.com/ugd/249783_fd5c0df5f63d4547a30e4fd50a797693.pdf" target="_blank" >
-                Open
-                <span className='sr-only'>Lessons Learned.</span>
-              </Button>
-            </Card.Footer>
-          </Card>
+          {data.map((element) => (
+            <Card key={element.id} style={{margin: 5}}>
+              <Card.Body>
+                <Image alt={element.imgalt} roundedCircle src={element.img} />
+                <Card.Title>{element.title}</Card.Title>
+                <Card.Text>{element.text}</Card.Text>
+              </Card.Body>
+              <Card.Footer className="card-footer-transparent">
+                <Button variant="dark" href={element.url} target="_blank" >
+                  Open
+                  <span className='sr-only'>{element.screenreader}</span>
+                </Button>
+              </Card.Footer>
+            </Card>
+          ))}
         </CardGroup>
       </Container>
     </main> 
-  );
+    );
+  }
+  
+  return <div>No Projects Available. Try again later.</div>;
 }

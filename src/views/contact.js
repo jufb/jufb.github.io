@@ -1,7 +1,7 @@
 import { Container, Button } from 'react-bootstrap';
 import { Envelope, Linkedin, Github } from 'react-bootstrap-icons';
 
-export const Contact = () => {
+export function Contact() {
   return (
     <main id="Contact" role="main" className='bg-light text-center'>
       <Container className='jumbotron'>

@@ -2,7 +2,7 @@ import { Container, Image, Row, Col, Button
 } from 'react-bootstrap';
 import { BoxArrowUpRight } from 'react-bootstrap-icons';
 
-export const About = () => {
+export function About() {
   return (
     <main id="About" role="main" className='bg-light'>
       <Container className='text-center jumbotron'>

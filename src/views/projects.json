@@ -6,7 +6,8 @@
         "text" : "How I structured this website using React and Bootstrap.",
         "url" : "https://github.com/jufb/jufb.github.io",
         "screenreader" : "my portfolio", 
-        "img" : ""
+        "img" : "",
+        "imgalt" : ""
     },
     {
         "id" : "2",
@@ -15,7 +16,8 @@
         "text" : "Coding tests executed during the course.",
         "url" : "https://github.com/jufb/Python_C_Dev",
         "screenreader" : "Python", 
-        "img" : ""
+        "img" : "",
+        "imgalt" : ""
     },
     {
         "id" : "3",
@@ -24,7 +26,8 @@
         "text" : "Coding tests executed during a python course.",
         "url" : "https://github.com/jufb/LighthousePythonCourse",
         "screenreader" : "Python", 
-        "img" : ""
+        "img" : "",
+        "imgalt" : ""
     },
     {
         "id" : "4",
@@ -33,6 +36,7 @@
         "text" : "Solving challenges on LeetCode and HackerRank.",
         "url" : "https://github.com/jufb/C-Solutions",
         "screenreader" : "C Sharp", 
-        "img" : ""
+        "img" : "",
+        "imgalt" : ""
     }    
 ]

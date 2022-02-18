@@ -33,7 +33,7 @@
         "id" : "4",
         "featured" : false,
         "title" : "C# Solutions",
-        "text" : "Solving challenges on LeetCode and HackerRank.",
+        "text" : "Calculator, Stopwatch and more.",
         "url" : "https://github.com/jufb/C-Solutions",
         "screenreader" : "C Sharp", 
         "img" : "",

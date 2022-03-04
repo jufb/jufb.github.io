@@ -1,0 +1,32 @@
+[
+    {
+        "title" : "Hard Skills",
+        "skills" : [
+            "C#",
+            "SQL",
+            "JavaScript",
+            "React",
+            "Bootstrap",
+            "Python",
+            "HTML",
+            "CSS",
+            "SCRUM/Agile",
+            "Visual Studio TFS",
+            "Visual Studio Code",
+            "UML",
+            "Jira",
+            "AWS"
+        ]
+    },
+    {
+        "title" : "Hard Skills",
+        "skills" : [
+            "Self-Starter",
+            "Detail-Oriented",
+            "Critical Thinker",
+            "Organizational Skills",
+            "Leadership",
+            "Creativity"
+        ]
+    }
+]

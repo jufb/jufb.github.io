@@ -2,7 +2,7 @@
     {
         "id" : "1",
         "featured" : true,
-        "title" : "My Portfolio",
+        "title" : "Juliana F. Borges Portfolio",
         "text" : "How I structured this website using React and Bootstrap.",
         "url" : "https://github.com/jufb/jufb.github.io",
         "screenreader" : "my portfolio", 
@@ -12,8 +12,8 @@
     {
         "id" : "2",
         "featured" : false,
-        "title" : "Python for C# Developer Course",
-        "text" : "Coding tests executed during the course.",
+        "title" : "Back-End App",
+        "text" : "Coding samples executed during the 'Python for C# Developer' course.",
         "url" : "https://github.com/jufb/Python_C_Dev",
         "screenreader" : "Python", 
         "img" : "",
@@ -22,8 +22,8 @@
     {
         "id" : "3",
         "featured" : false,
-        "title" : "Python Course",
-        "text" : "Coding tests executed during a python course.",
+        "title" : "Back-End App",
+        "text" : "Coding samples executed during a Python course.",
         "url" : "https://github.com/jufb/LighthousePythonCourse",
         "screenreader" : "Python", 
         "img" : "",
@@ -32,11 +32,11 @@
     {
         "id" : "4",
         "featured" : false,
-        "title" : "C# Solutions",
-        "text" : "Calculator, Stopwatch and more.",
+        "title" : "Back-End Apps",
+        "text" : "Calculator, Stopwatch C# Solutions",
         "url" : "https://github.com/jufb/C-Solutions",
         "screenreader" : "C Sharp", 
         "img" : "",
         "imgalt" : ""
-    }    
+    }
 ]

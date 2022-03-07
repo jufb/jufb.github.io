@@ -5,9 +5,9 @@
         "title" : "Prototype",
         "text" : "A clickable prototype of my website using Balsamiq Mockups.",
         "url" : "https://github.com/jufb/jufb.github.io/raw/main/src/assets/JulianaPorftolioPrototypes.pdf",
-        "screenreader" : "", 
-        "img" : "",
-        "imgalt" : ""
+        "screenreader" : "The prototype of my Portfolio.",
+        "img" : "https://github.com/jufb/jufb.github.io/raw/main/src/assets/PrototypeJFB.png",
+        "imgalt" : "A prototype of my website."
     },
     {
         "id" : "2",

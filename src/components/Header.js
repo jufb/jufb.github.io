@@ -26,10 +26,10 @@ export const Header = () => {
                 <Nav.Link href="#About">About</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="#Projects">Coding Projects</Nav.Link>
+                <Nav.Link href="#Projects">Projects</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="#ProjectManagement">Project Management</Nav.Link>
+                <Nav.Link href="#Skills">Skills</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link href="#Contact">Contact</Nav.Link>

@@ -21,8 +21,11 @@ export function Projects() {
       .catch(setError);
   }, []);
 
-  if(loading)
-    return <h3>Loading...</h3>;
+  if(loading) {
+    return (
+      <center><img src="spinner.svg" width="80" height="80" alt='Loading...' /></center>
+    );
+  }
 
   if(error) {
     return <pre>{JSON.stringify(error, null, 2)}</pre>;
@@ -32,7 +35,7 @@ export function Projects() {
     return (
       <main id="Projects" role="main">
         <Container className='jumbotron'>
-          <h1>Coding Projects</h1>
+          <h1>Projects</h1>
 
           View all my projects on
           <Button variant="link" className='text-dark' href="https://github.com/jufb?tab=repositories" target='_blank' style={{paddingTop: 5, paddingLeft: 4}}>
@@ -42,17 +45,15 @@ export function Projects() {
 
         <Container fluid>
           <CardGroup>
-            {data.map((element) => (
-              <Card key={element.id} className="card-project" style={{margin: 5}}>
-                <Card.Title><h4>{element.title}</h4></Card.Title>
+            {data.map(element => (
+              <Card key={element.id} style={{margin: 10}}>
+                <Card.Title>{element.title}</Card.Title>
                 <Card.Body>
                   <Card.Text>{element.text}</Card.Text>
                 </Card.Body>
                 <Card.Footer className="card-footer-transparent">
                   <Button variant="dark" href={element.url} target="_blank">
-                    Open 
-                    <span className='sr-only'>{element.screenreader}</span>
-                    Code
+                    Open <span className='sr-only'>{element.screenreader}</span>Code
                   </Button>
                 </Card.Footer>
               </Card>
@@ -63,5 +64,5 @@ export function Projects() {
     );
   }
   
-  return <div>No Projects Available. Try again later.</div>;
+  return <div>No data available. Try again later.</div>;
 }

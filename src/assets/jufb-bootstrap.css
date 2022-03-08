@@ -3618,7 +3618,8 @@ tbody.collapse.show {
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	min-width: 330px;
+	min-width: 300px;
+	max-width: 300px;
 	word-wrap: normal;
 	background-color: rgba(255, 255, 255, 0.774);
 	background-clip: border-box;
@@ -3629,10 +3630,15 @@ tbody.collapse.show {
 .card-body {
 	flex: 1 1 auto;
 	padding: 1.25rem;
+	font-size: medium;
 }
 
 .card-title {
 	margin-bottom: 0.75rem;
+	padding-top: 30px;
+	text-transform: uppercase;
+	font-size: large;
+	font-weight: bold;
 }
 
 .card-subtitle {
@@ -3644,8 +3650,13 @@ tbody.collapse.show {
 	margin-bottom: 0;
 }
 
+.card-link {
+	color:inherit;
+}
+
 .card-link:hover {
 	text-decoration: none;
+	color: inherit;
 }
 
 .card-link+.card-link {
@@ -3703,11 +3714,29 @@ tbody.collapse.show {
 	left: 0;
 	padding: 1.25rem;
 }
-
-.card-img {
-	width: 100%;
-	border-radius: calc(0.25rem - 1px);
+/* personalized card-tag */
+.card .image-box {
+	background: #ffffff;
+	overflow: hidden;
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+	border-radius: 5px;
 }
+
+.card .image-box .card-img {
+	transition: all .9s ease;
+	width: 100%;
+	height: 200px;  
+}
+.card:hover .image-box .card-img{
+	opacity: 0.7;
+	transform:scale(1.15);
+}
+.card:hover {
+	background: #fff;
+	box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+	transition: all 0.2s ease-in;
+}
+/* end personalized card-tag */
 
 .card-img-top {
 	width: 100%;
@@ -3741,10 +3770,8 @@ tbody.collapse.show {
 	.card-group {
 		display: flex;
 		flex-flow: row wrap;
-	}
-	.card-group .card {
-		flex: 1 0 0%;
-		border-radius: 0.25rem;
+		align-content: center;
+	    justify-content: center;
 	}
 	.card-group .card+.card {
 		margin-left: 0;
@@ -3890,15 +3917,15 @@ tbody.collapse.show {
 
 .badge {
 	display: inline-block;
-	padding: 0.25em 0.4em;
-	font-size: 75%;
-	font-weight: bold;
+	padding: 0.4em 0.4em;
+	font-size: 90%;
 	line-height: 1;
 	color: #fff;
 	text-align: center;
 	white-space: nowrap;
 	vertical-align: baseline;
 	border-radius: 0.25rem;
+	margin: 2px;
 }
 
 .badge:empty {
@@ -8139,13 +8166,15 @@ a.text-dark:hover {
 	border-style: solid;
 	border-width: 1rem;
 	min-width: 300px;
+	min-height: 300px;
 	margin-bottom: 1rem;
+	background: transparent url("/public/spinner.svg") no-repeat scroll center center;
 }
 
 #Home::before,
 #About::before,
 #Projects::before,
-#ProjectManagement::before,
+#Skills::before,
 #Contact::before,
 #Contact::after  {
 	content: "";
@@ -8154,7 +8183,7 @@ a.text-dark:hover {
 }
 
 #Contacts .btn-link {
-	color: #000;
+	color: inherit;
 	text-decoration: none;
 }
 #Contacts .btn-link:hover {
@@ -8185,17 +8214,4 @@ a.text-dark:hover {
 .card-footer-transparent {
 	border: 0;
 	background-color: transparent;
-}
-
-.card-project {
-	min-height: 300px;
-	padding: 1rem;
-}
-
-.card-project-portfolio {
-	background-image:  linear-gradient(rgba(255, 255, 255, 0.900), rgba(255, 255, 255, 0.600)), url("jfbLogo.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	border: 0px;
 }

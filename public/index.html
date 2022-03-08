@@ -9,6 +9,14 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/jfbLogo.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Portfolio | Juliana F. Borges</title>
+    <style>
+      .loader {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
   </head>
   <body>
 
@@ -16,12 +24,15 @@
       <center>
         <img src="%PUBLIC_URL%/jfbLogo.png" />
         <p><h1>Hello!</h1></p>
-        <h2>In order to see my profile, you need to enable JavaScript in your browser.
+        <h2>In order to see my Portfolio, you need to enable JavaScript in your browser.
         <p>Thank you!</p>
         </h2>
       </center>
     </noscript>
-    <div id="root"></div>
-
+    <div id="root">
+      <div class="loader">
+        <img src="%PUBLIC_URL%/spinner.svg"  alt='Loading...' />
+      </div>
+    </div>
   </body>
 </html>

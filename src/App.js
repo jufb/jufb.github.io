@@ -4,7 +4,7 @@ import { Footer } from './components/Footer';
 import { Home } from './views/home';
 import { About } from './views/about';
 import { Projects } from './views/projects';
-import { ProjectManagement } from './views/projectManagement';
+import { Skills } from './views/projectSkills';
 import { Contact } from './views/contact';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Home />
       <About />
       <Projects />
-      <ProjectManagement />
+      <Skills />
       <Contact />
       <Footer year={new Date().getFullYear()} />
     </div>

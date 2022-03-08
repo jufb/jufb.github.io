@@ -15,10 +15,10 @@ export function Contact() {
             fborges.j@gmail.com
         </Button>
 
-        <Button variant="link" href="https://www.linkedin.com/in/fborgesj/" target='_blank'>
+        <Button variant="link" href="https://www.linkedin.com/in/fborgesj" target='_blank'>
           <Linkedin color="current" size="35" />
           <h4>LinkedIn</h4>
-            https://www.linkedin.com/in/fborgesj/
+            https://www.linkedin.com/in/fborgesj
         </Button>
 
         <Button variant="link" href="https://github.com/jufb" target='_blank'>

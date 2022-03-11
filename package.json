@@ -1,6 +1,7 @@
 {
-  "name": "jufb",
-  "version": "2.5.0",
+  "name": "jufb.github.io",
+  "homepage": "https://jufb.github.io/",
+  "version": "2.5.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",

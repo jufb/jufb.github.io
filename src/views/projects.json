@@ -4,27 +4,29 @@
         "featured" : true,
         "title" : "Juliana F. Borges Portfolio",
         "text" : "How I structured this website using React and Bootstrap.",
-        "url" : "https://github.com/jufb/jufb.github.io",
+        "github" : "https://github.com/jufb/jufb.github.io",
         "screenreader" : "my portfolio", 
-        "img" : "",
-        "imgalt" : ""
+        "img" : "https://static.wixstatic.com/media/249783_9bd875f046344f4da7cfc236c1baec7d~mv2.png/v1/fill/w_350,h_250,al_c,usm_0.66_1.00_0.01,enc_auto/249783_9bd875f046344f4da7cfc236c1baec7d~mv2.png",
+        "imgalt" : "Juliana's Portfolio."
     },
     {
         "id" : "2",
-        "featured" : false,
-        "title" : "Back-End App",
-        "text" : "Coding samples executed during the 'Python for C# Developer' course.",
-        "url" : "https://github.com/jufb/Python_C_Dev",
-        "screenreader" : "Python", 
-        "img" : "",
-        "imgalt" : ""
+        "featured" : true,
+        "title" : "Lord Of The Rings",
+        "text" : "A React and bootstrap app using API.",
+        "github" : "https://github.com/jufb/lordoftherings",
+        "url" : "https://jufb.github.io/lordoftherings/",
+        "screenreader" : "lord of the rings", 
+        "img" : "https://static.wixstatic.com/media/249783_b37ecd5c43fc4240ba22f7c9c2ae0237~mv2.png/v1/fill/w_350,h_250,al_c,usm_0.66_1.00_0.01,enc_auto/249783_b37ecd5c43fc4240ba22f7c9c2ae0237~mv2.png",
+        "imgalt" : "Juliana's Portfolio."
     },
     {
         "id" : "3",
         "featured" : false,
         "title" : "Back-End App",
-        "text" : "Coding samples executed during a Python course.",
-        "url" : "https://github.com/jufb/LighthousePythonCourse",
+        "text" : "Coding samples executed during the 'Python for C# Developer' course.",
+        "github" : "https://github.com/jufb/Python_C_Dev",
+        "url" : "",
         "screenreader" : "Python", 
         "img" : "",
         "imgalt" : ""
@@ -32,9 +34,21 @@
     {
         "id" : "4",
         "featured" : false,
+        "title" : "Back-End App",
+        "text" : "Coding samples executed during a Python course.",
+        "github" : "https://github.com/jufb/LighthousePythonCourse",
+        "url" : "",
+        "screenreader" : "Python", 
+        "img" : "",
+        "imgalt" : ""
+    },
+    {
+        "id" : "5",
+        "featured" : false,
         "title" : "Back-End Apps",
         "text" : "Calculator, Stopwatch C# Solutions.",
-        "url" : "https://github.com/jufb/C-Solutions",
+        "github" : "https://github.com/jufb/C-Solutions",
+        "url" : "",
         "screenreader" : "C Sharp", 
         "img" : "",
         "imgalt" : ""

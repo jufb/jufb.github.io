@@ -1,2 +1,3 @@
-node_modules
-src/assets/jufb-bootstrap-fullbootstrap.css
+.DS_Store
+.dccache
+node_modules/

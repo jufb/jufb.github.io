@@ -1,4 +1,4 @@
-import { Container, Card, Button, CardGroup } from 'react-bootstrap';
+import { Container, Card, Button } from 'react-bootstrap';
 import { BoxArrowUpRight } from 'react-bootstrap-icons';
 import dataProjects from './projects.json';
 
@@ -16,11 +16,10 @@ export function Projects() {
 
       <Container fluid>
 
-        <CardGroup>
-
+        <div className="group-card">
           {dataProjects.map(element => (
             
-            <Card key={element.id} style={{margin: 10}}>
+            <Card key={element.id} className={element.featured ? 'featured' : undefined}>
               {element.img.length > 0 &&
                 <div className="image-box">
                   <Card.Img alt={element.imgalt} src={element.img} />
@@ -44,9 +43,8 @@ export function Projects() {
               </Card.Footer>
             </Card>
 
-          ))
-          }
-        </CardGroup>
+          ))}
+        </div>
 
       </Container>
 

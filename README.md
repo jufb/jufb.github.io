@@ -1,5 +1,5 @@
 # jufb.github.io
-My main website, made in React and Bootstrap.
+My portfolio, made in React and Bootstrap.
 
 ## How to use it:
 1. Download the latest release

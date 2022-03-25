@@ -9,14 +9,14 @@ export function About() {
         <h1>About</h1>
         Software Engineer. 
         <Button variant="link" href="https://1drv.ms/b/s!AquVyDo2_0wmrBEq6lEqC-qJ5gzS" target='_blank' style={{paddingTop: 5, paddingLeft: 4}}>
-            Open my resume/CV <BoxArrowUpRight color="currentColor" size="16" />
+            Open my resume/CV <BoxArrowUpRight color="currentColor" size="12" />
         </Button>
         </Container>
         <Container>
         <Row>
             <Col>
             <h4>Hi, my name is Juliana...</h4>
-            And Ontario, Canada is my home.<br/>
+            And I live in Ontario, Canada.<br/>
             I have accumulated 10+ years of experience as a Software Engineer.<br/>
             In my career, I was involved in the Project Life Cycle Phases. Consequently, Business Analysis and Project Management were also part of my experience.
             <p>Opportunities that promote diversity, equality, and inclusion are my goals.</p>

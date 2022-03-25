@@ -3,8 +3,9 @@
         "id" : "1",
         "featured" : true,
         "title" : "Juliana F. Borges Portfolio",
-        "text" : "How I structured this website using React and Bootstrap.",
+        "text" : "How I structured this website using ReactJS and Bootstrap.",
         "github" : "https://github.com/jufb/jufb.github.io",
+        "url" : "",
         "screenreader" : "my portfolio", 
         "img" : "https://static.wixstatic.com/media/249783_9bd875f046344f4da7cfc236c1baec7d~mv2.png/v1/fill/w_350,h_250,al_c,usm_0.66_1.00_0.01,enc_auto/249783_9bd875f046344f4da7cfc236c1baec7d~mv2.png",
         "imgalt" : "Juliana's Portfolio."
@@ -13,44 +14,22 @@
         "id" : "2",
         "featured" : true,
         "title" : "Lord Of The Rings",
-        "text" : "A React and bootstrap app using API.",
+        "text" : "A ReactJS and Bootstrap app using API.",
         "github" : "https://github.com/jufb/lordoftherings",
         "url" : "https://jufb.github.io/lordoftherings/",
         "screenreader" : "lord of the rings", 
         "img" : "https://static.wixstatic.com/media/249783_b37ecd5c43fc4240ba22f7c9c2ae0237~mv2.png/v1/fill/w_350,h_250,al_c,usm_0.66_1.00_0.01,enc_auto/249783_b37ecd5c43fc4240ba22f7c9c2ae0237~mv2.png",
-        "imgalt" : "Juliana's Portfolio."
+        "imgalt" : "Lord Of The Rings."
     },
     {
         "id" : "3",
         "featured" : false,
-        "title" : "Back-End App",
-        "text" : "Coding samples executed during the 'Python for C# Developer' course.",
-        "github" : "https://github.com/jufb/Python_C_Dev",
-        "url" : "",
-        "screenreader" : "Python", 
-        "img" : "",
-        "imgalt" : ""
-    },
-    {
-        "id" : "4",
-        "featured" : false,
-        "title" : "Back-End App",
-        "text" : "Coding samples executed during a Python course.",
-        "github" : "https://github.com/jufb/LighthousePythonCourse",
-        "url" : "",
-        "screenreader" : "Python", 
-        "img" : "",
-        "imgalt" : ""
-    },
-    {
-        "id" : "5",
-        "featured" : false,
-        "title" : "Back-End Apps",
-        "text" : "Calculator, Stopwatch C# Solutions.",
+        "title" : "Calculator",
+        "text" : "Calculator and Stopwatch C# Solutions.",
         "github" : "https://github.com/jufb/C-Solutions",
-        "url" : "",
+        "url" : "https://replit.com/@jufb/Calculator?v=1",
         "screenreader" : "C Sharp", 
-        "img" : "",
-        "imgalt" : ""
+        "img" : "https://images.pexels.com/photos/5412194/pexels-photo-5412194.jpeg?cs=srgb&dl=pexels-karolina-grabowska-5412194.jpg&fm=jpg&w=350&h=250",
+        "imgalt" : "Calculator."
     }
 ]

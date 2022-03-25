@@ -8,7 +8,7 @@ export const Header = () => {
       <Container style={{padding:0}}>
         <Navbar.Toggle />
 
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="#Home">
           <img src="favicon.ico"
             width="50"
             height="50"

@@ -293,7 +293,7 @@ h6,
 }
 
 #Home {
-	background-image:  linear-gradient(rgba(255, 255, 255, 0.600), rgba(255, 255, 255, 0.600)), url("https://static.wixstatic.com/media/249783_a40aaed8cb3d4e41aba47bc28e1e7001~mv2.jpg");
+	background-image:  linear-gradient(rgba(255, 255, 255, 0.900), rgba(255, 255, 255, 0.750)), url("https://static.wixstatic.com/media/249783_a40aaed8cb3d4e41aba47bc28e1e7001~mv2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -304,7 +304,7 @@ h6,
 	padding-bottom: 20%;}
 
 #Projects {
-	background-image: linear-gradient(rgba(255, 255, 255, 0.600), rgba(255, 255, 255, 0.600)), url("https://static.wixstatic.com/media/249783_d1106fe76fb242a08134c8ae1b140de5~mv2.jpg");
+	background-image: linear-gradient(rgba(76,76,76, 0.8), rgba(76,76,76, 0.8)), url("https://static.wixstatic.com/media/249783_d1106fe76fb242a08134c8ae1b140de5~mv2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;

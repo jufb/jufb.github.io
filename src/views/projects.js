@@ -5,12 +5,12 @@ import dataProjects from './projects.json';
 export function Projects() {  
   return (
     <main id="Projects" role="main">
-      <Container className='jumbotron'>
-        <h1>Projects</h1>
 
+      <Container className='jumbotron text-light'>
+        <h1>Projects</h1>
         View all my projects on
-        <Button variant="link" className='text-dark' href="https://github.com/jufb?tab=repositories" target='_blank' style={{paddingTop: 5, paddingLeft: 4}}>
-          GitHub <BoxArrowUpRight color="currentColor" size="17" />
+        <Button variant="link" href="https://github.com/jufb?tab=repositories" target='_blank' style={{paddingTop: 5, paddingLeft: 4}}>
+          GitHub <BoxArrowUpRight color="currentColor" size="12" />
         </Button>
       </Container>
 
@@ -34,7 +34,7 @@ export function Projects() {
                   Open <span className='sr-only'>{element.screenreader}</span> Code
                 </Button>&nbsp;
 
-                {element.featured &&
+                {element.url &&
                   <Button variant="primary" href={element.url} target="_blank">
                     View <span className='sr-only'>{element.screenreader}</span> Live
                   </Button>

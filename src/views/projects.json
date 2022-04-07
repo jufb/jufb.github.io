@@ -24,8 +24,8 @@
     {
         "id" : "3",
         "featured" : false,
-        "title" : "Calculator",
-        "text" : "Calculator and Stopwatch C# Solutions.",
+        "title" : "C# Apps",
+        "text" : "Calculator, Stopwatch, Guess The Number game, Palindrome, and Bank.",
         "github" : "https://github.com/jufb/C-Solutions",
         "url" : "https://replit.com/@jufb/Calculator?v=1",
         "screenreader" : "C Sharp", 

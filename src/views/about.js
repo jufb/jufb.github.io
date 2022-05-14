@@ -7,18 +7,18 @@ export function About() {
     <main id="About" role="main" className='bg-light'>
         <Container className='text-center jumbotron'>
         <h1>About</h1>
-          Software Engineer. 
+          <h4>Software Engineer.&nbsp;
           <Button variant="link" href="https://1drv.ms/b/s!AquVyDo2_0wmgqchpz1XjfWcoUWXwA" target='_blank' style={{paddingTop: 5, paddingLeft: 4}}>
               Open my resume/CV <BoxArrowUpRight color="currentColor" size="12" />
           </Button>
+          </h4>
         </Container>
         <Container>
         <Row>
             <Col>
-            <h3>Hi, my name is Juliana...</h3>
+            <h4>Hi, my name is Juliana...</h4>
               And I live in Ontario, Canada.<br/>
-              I have accumulated 10+ years of experience as a Software Engineer.<br/>
-              In my career, I was involved in the Project Life Cycle Phases. Consequently, Business Analysis and Project Management were also part of my experience.
+              I am a passionate Software Engineer with 10+ years of experience in the IT industry, with solid knowledge in front-end and back-end applications such as .NET C#, React, and Python. Plus, I also hold knowledge in Business Analysis and Project Management.
               <p>Opportunities that promote diversity, equality, and inclusion are my goals.</p>
             </Col>
             <Col className='text-center'>
@@ -27,7 +27,7 @@ export function About() {
             <Col>
               {dataSkills.map((array, i) => (
                 <div key={i}>
-                  <h3>{array.title}</h3>
+                  <br/> <h4>{array.title}</h4>
                   {array.skills.map((subarray, x) => (
                     <Badge key={x} bg="secondary">
                       {subarray}
@@ -39,7 +39,7 @@ export function About() {
         </Row>
         <hr /> 
         
-        <blockquote><h3>“Leaders must inspire and motivate to raise new leaders.”</h3></blockquote>
+        <blockquote><h4>“Leaders must inspire and motivate to raise new leaders.”</h4></blockquote>
         <cite>― Juliana</cite>
         
         </Container>

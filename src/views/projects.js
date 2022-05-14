@@ -8,10 +8,11 @@ export function Projects() {
 
       <Container className='jumbotron text-light'>
         <h1>Projects</h1>
-        View all my projects on
+        <h4>View all my projects on &nbsp;
         <Button variant="link" href="https://github.com/jufb?tab=repositories" target='_blank' style={{paddingTop: 5, paddingLeft: 4}}>
           GitHub <BoxArrowUpRight color="currentColor" size="12" />
         </Button>
+        </h4>
       </Container>
 
       <Container fluid>

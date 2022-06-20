@@ -2,31 +2,40 @@
     {
         "title" : "Hard Skills",
         "skills" : [
-            "C#",
-            "SQL",
-            "JavaScript",
-            "React",
-            "Bootstrap",
-            "Python",
-            "HTML",
-            "CSS",
-            "SCRUM/Agile",
-            "Visual Studio",
-            "UML",
-            "Jira",
             "AWS",
-            "Azure"
+            "Azure",
+            "Bootstrap",
+            "CSS",
+            "C#",
+            "HTML",
+            "JavaScript",
+            "Jira",
+            "Machine Learning",
+            "PyCharm",
+            "Python",
+            "React",
+            "SQL",
+            "Agile/Scrum",
+            "UML",
+            "Visual Studio"
         ]
     },
     {
         "title" : "Soft Skills",
         "skills" : [
-            "Self-Starter",
+            "Creative",
+            "Critical Thinking",
             "Detail-Oriented",
-            "Critical Thinker",
-            "Organizational Skills",
+            "Driven to Learn",
             "Leadership",
-            "Creativity"
+            "Organizational Skills",
+            "Self-Starter",
+            "Team Player"
+        ]
+    },
+    {
+        "title" : "Certifications",
+        "skills" : [
         ]
     }
 ]

@@ -16,18 +16,20 @@ export function About() {
         <Container>
         <Row>
             <Col>
-            <h4>Hi, my name is Juliana...</h4>
-              And I live in Ontario, Canada.<br/>
-              I am a passionate Software Engineer with 10+ years of experience in the IT industry, with solid knowledge in front-end and back-end applications such as .NET C#, React, and Python. Plus, I also hold knowledge in Business Analysis and Project Management.
-              <p>Opportunities that promote diversity, equality, and inclusion are my goals.</p>
+              <p>Hi, I'm Juliana. I am a professional Software Engineer with over ten years of experience in the IT industry, with solid knowledge in front-end and back-end applications such as .NET C#, React, and Python. Plus, I also hold knowledge in Business Analysis and Project Management.</p>
+              <p>Technology has been part of my life since my childhood. Visual Basic was my first coding experience during my technical high school in Data Processing. I published my first website in my teens.</p>
+              <p>Currently, I live in Ontario, Canada. I enjoy spending my free time having long walks with my family, playing videogames, and learning and exploring what's new in tech.</p>
+              <hr /> 
+              <blockquote><h4>“Leaders must inspire and motivate to raise new leaders.”</h4></blockquote>
+              <cite>― Juliana</cite>
             </Col>
             <Col className='text-center'>
-              <Image className="figure-img" roundedCircle src="https://static.wixstatic.com/media/249783_9be0ce1d760d45af9206292fff26a7c1~mv2.jpg" alt='Juliana F. Borges picture.' />
+              <Image id="juliana-pic" roundedCircle src="https://static.wixstatic.com/media/249783_9be0ce1d760d45af9206292fff26a7c1~mv2.jpg" alt='Juliana F. Borges picture.' />
             </Col>
             <Col>
               {dataSkills.map((array, i) => (
                 <div key={i}>
-                  <br/> <h4>{array.title}</h4>
+                  <h4>{array.title}</h4>
                   {array.skills.map((subarray, x) => (
                     <Badge key={x} bg="secondary">
                       {subarray}
@@ -35,12 +37,15 @@ export function About() {
                   ))}
                 </div>
               ))}
+
+              <Button variant="link" href="https://www.credly.com/badges/cd80d417-a02c-417b-bff5-b2c1dff94126/public_url" target='_blank'>
+                <Image className='certifications' src="https://static.wixstatic.com/media/249783_cb2c77e2cefd40e096f0d2268ab0c459~mv2.png" alt='Microsoft certified Azure AI Fundamentals.' />
+              </Button>
             </Col>
         </Row>
-        <hr /> 
-        
-        <blockquote><h4>“Leaders must inspire and motivate to raise new leaders.”</h4></blockquote>
-        <cite>― Juliana</cite>
+        <Row>
+        </Row>
+
         
         </Container>
     </main>

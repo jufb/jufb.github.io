@@ -2,75 +2,35 @@
     {
         "id" : "1",
         "featured" : false,
-        "title" : "Prototype",
-        "text" : "A clickable prototype of my website using Balsamiq Mockups.",
-        "url" : "https://24978365-83fa-4d70-9e41-1e626b8c0010.usrfiles.com/ugd/249783_f6879e338f3648a289887bd30e75b7d8.pdf",
-        "screenreader" : "The prototype of my Portfolio.",
-        "img" : "https://static.wixstatic.com/media/249783_ae786999e4964731b4c0075d027abacd~mv2.png/v1/fill/w_350,h_250,al_c,usm_0.66_1.00_0.01,enc_auto/249783_ae786999e4964731b4c0075d027abacd~mv2.png",
-        "imgalt" : "A prototype of my website."
-    },
-    {
-        "id" : "10",
-        "featured" : false,
-        "title" : "Status Report",
-        "text" : "A document with meeting minutes taken during academic meetings.",
-        "url" : "https://7a82a82f-cf8f-4312-8995-c0cc5a3a04ce.filesusr.com/ugd/249783_08fbe0aadca44e68a01372d8d9158283.pdf",
-        "screenreader" : "Status Report.",
-        "img" : "https://images.pexels.com/photos/327882/pexels-photo-327882.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=350",
-        "imgalt" : "A prototype of my website."
-    },
-    {
-        "id" : "11",
-        "featured" : false,
         "title" : "Agile using Jira",
-        "text" : "My projects created with JIRA and a sample of an active Sprint board.",
+        "text" : "An example of projects using JIRA and an active Sprint board.",
         "url" : "https://static.wixstatic.com/media/249783_8a7ea33fbd6b448dbcbb34ab186bae00~mv2.png",
         "screenreader" : "Agile using Jira.",
         "img" : "https://static.wixstatic.com/media/249783_17ba9e199bfa4f6088bac19ce7c07efd~mv2.png/v1/fill/w_350,h_250,al_c,usm_0.66_1.00_0.01,enc_auto/249783_17ba9e199bfa4f6088bac19ce7c07efd~mv2.png",
         "imgalt" : "A picture of Jira with agile projects."
     },
     {
-        "id" : "3",
-        "featured" : false,
-        "title" : "Scope Management Plan",
-        "text" : "A complex document that follows the PMBOK guide to planning the scope of a project.",
-        "url" : "https://7a82a82f-cf8f-4312-8995-c0cc5a3a04ce.filesusr.com/ugd/249783_b5bb8d0ddb4f4785b569a8a477841f62.pdf",
-        "screenreader" : "Scope Management Plan.", 
-        "img" : "https://static.wixstatic.com/media/249783_12a4e4a88ed54ac3be46780f49287445~mv2.png/v1/fill/w_350,h_250,al_c,usm_0.66_1.00_0.01,enc_auto/249783_12a4e4a88ed54ac3be46780f49287445~mv2.png",
-        "imgalt" : "Scope Management Plan icon."
-    },
-    {
-        "id" : "4",
-        "featured" : false,
-        "title" : "Stakeholder Management Plan",
-        "text" : "A PMBOK document with calculations to rank stakeholders and requirements in order of importance.",
-        "url" : "https://7a82a82f-cf8f-4312-8995-c0cc5a3a04ce.filesusr.com/ugd/249783_0a1764a9f1a44ee4a3d0437957375fd3.pdf",
-        "screenreader" : "Stakeholder Management Plan.", 
-        "img" : "https://images.pexels.com/photos/1367275/pexels-photo-1367275.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=350",
-        "imgalt" : "Stakeholder Management Plan icon."
-    },
-    {
-        "id" : "5",
-        "featured" : false,
-        "title" : "Project Procurement Schedule",
-        "text" : "A project schedule to procure laptops with negotiations and meetings.",
-        "url" : "https://7a82a82f-cf8f-4312-8995-c0cc5a3a04ce.filesusr.com/ugd/249783_e72e772111294d579f963af84ea7bf32.pdf",
-        "screenreader" : "Project Procurement Schedule.", 
-        "img" : "https://static.wixstatic.com/media/249783_669898d952624f42beb31498efae01a3~mv2.png/v1/fill/w_350,h_250,al_c,usm_0.66_1.00_0.01,enc_auto/249783_669898d952624f42beb31498efae01a3~mv2.png",
-        "imgalt" : "Project Procurement Schedule icon."
-    },
-    {
-        "id" : "6",
+        "id" : "2",
         "featured" : false,
         "title" : "Project Schedule",
-        "text" : "A project schedule with Gantt Chart to execute a market research.",
+        "text" : "A project schedule with Gantt Chart for a market research.",
         "url" : "https://7a82a82f-cf8f-4312-8995-c0cc5a3a04ce.filesusr.com/ugd/249783_36a073c36aa747c595c3dbe2da34242b.pdf",
         "screenreader" : "Project Schedule icon.", 
         "img" : "https://static.wixstatic.com/media/249783_947e7a8e7f714c18914da42e5aaac962~mv2.png/v1/fill/w_350,h_250,al_c,usm_0.66_1.00_0.01,enc_auto/249783_947e7a8e7f714c18914da42e5aaac962~mv2.png",
         "imgalt" : "Project Schedule."
     },
     {
-        "id" : "7",
+        "id" : "3",
+        "featured" : false,
+        "title" : "Prototype",
+        "text" : "An interactive prototype using Balsamiq Mockups.",
+        "url" : "https://24978365-83fa-4d70-9e41-1e626b8c0010.usrfiles.com/ugd/249783_f6879e338f3648a289887bd30e75b7d8.pdf",
+        "screenreader" : "The prototype of my Portfolio.",
+        "img" : "https://static.wixstatic.com/media/249783_ae786999e4964731b4c0075d027abacd~mv2.png/v1/fill/w_350,h_250,al_c,usm_0.66_1.00_0.01,enc_auto/249783_ae786999e4964731b4c0075d027abacd~mv2.png",
+        "imgalt" : "A prototype of my website."
+    },
+    {
+        "id" : "4",
         "featured" : false,
         "title" : "Risk Register",
         "text" : "An Excel file containing a log of risks with qualitative and quantitative analysis.",
@@ -80,23 +40,23 @@
         "imgalt" : "Risk Register icon."
     },
     {
-        "id" : "8",
+        "id" : "5",
         "featured" : false,
-        "title" : "Project Presentation",
-        "text" : "A project presentation of the entire project lifecycle with milestones.",
-        "url" : "https://7a82a82f-cf8f-4312-8995-c0cc5a3a04ce.filesusr.com/ugd/249783_1fa0930a9274454fbc368bf9c74e7a90.ppsx?dn=Project%20Presentation.ppsx",
-        "screenreader" : "Project Presentation.", 
-        "img" : "https://static.wixstatic.com/media/249783_707793262f534fb7a462209fc72b1b48~mv2.png/v1/fill/w_350,h_250,al_c,usm_0.66_1.00_0.01,enc_auto/249783_707793262f534fb7a462209fc72b1b48~mv2.png",
-        "imgalt" : "Project Presentation icon."
+        "title" : "Scope Management Plan",
+        "text" : "A complex document that follows the PMBOK guide to plan the scope of a project.",
+        "url" : "https://7a82a82f-cf8f-4312-8995-c0cc5a3a04ce.filesusr.com/ugd/249783_b5bb8d0ddb4f4785b569a8a477841f62.pdf",
+        "screenreader" : "Scope Management Plan.", 
+        "img" : "https://static.wixstatic.com/media/249783_12a4e4a88ed54ac3be46780f49287445~mv2.png/v1/fill/w_350,h_250,al_c,usm_0.66_1.00_0.01,enc_auto/249783_12a4e4a88ed54ac3be46780f49287445~mv2.png",
+        "imgalt" : "Scope Management Plan icon."
     },
     {
-        "id" : "9",
+        "id" : "6",
         "featured" : false,
-        "title" : "Lessons Learned",
-        "text" : "A document with lessons learned in teamwork to put into practice in the next projects.",
-        "url" : "https://7a82a82f-cf8f-4312-8995-c0cc5a3a04ce.filesusr.com/ugd/249783_fd5c0df5f63d4547a30e4fd50a797693.pdf",
-        "screenreader" : "Lessons Learned.", 
-        "img" : "https://static.wixstatic.com/media/249783_5bbf37184ac34f979b4c8a83bef7adb6~mv2.png/v1/fill/w_350,h_250,al_c,usm_0.66_1.00_0.01,enc_auto/249783_5bbf37184ac34f979b4c8a83bef7adb6~mv2.png",
-        "imgalt" : "Lessons Learned icon."
+        "title" : "Stakeholder Management Plan",
+        "text" : "A PMBOK document with calculations to rank stakeholders and requirements in order of importance.",
+        "url" : "https://7a82a82f-cf8f-4312-8995-c0cc5a3a04ce.filesusr.com/ugd/249783_0a1764a9f1a44ee4a3d0437957375fd3.pdf",
+        "screenreader" : "Stakeholder Management Plan.", 
+        "img" : "https://images.pexels.com/photos/1367275/pexels-photo-1367275.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=350",
+        "imgalt" : "Stakeholder Management Plan icon."
     }
 ]

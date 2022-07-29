@@ -7,7 +7,7 @@ export function Skills() {
 
       <Container className='jumbotron text-light'>
         <h1>Skills</h1>
-        <h4>Prototyping, Agile, UML, Project Management. See below for some <strong>more examples</strong> of skills I acquired throughout my career.</h4>
+        <h5>Agile, Project Management, System Design, UML. Some <strong>more examples</strong> of skills I acquired throughout my career.</h5>
       </Container>
 
       <Container fluid>

@@ -5,15 +5,15 @@ import dataSkills from './skills.json';
 export function About() {
   return (
     <main id="About" role="main" className='bg-light'>
-        <Container className='text-center jumbotron'>
+      <Container className='text-center jumbotron'>
         <h1>About</h1>
-          <h4>Software Engineer.&nbsp;
+          <h5>Software Engineer.&nbsp;
           <Button variant="link" href="https://1drv.ms/b/s!AquVyDo2_0wmgqchpz1XjfWcoUWXwA" target='_blank' style={{paddingTop: 5, paddingLeft: 4}}>
               Open my resume/CV <BoxArrowUpRight color="currentColor" size="12" />
           </Button>
-          </h4>
-        </Container>
-        <Container>
+          </h5>
+      </Container>
+      <Container>
         <Row>
             <Col>
               <p>Hi, I'm Juliana. I am a professional Software Engineer with over ten years of experience in the IT industry, with solid knowledge in front-end and back-end applications such as .NET C#, React, and Python. Plus, I also hold knowledge in Business Analysis and Project Management.</p>
@@ -39,18 +39,14 @@ export function About() {
               ))}
 
               <Button variant="link" href="https://www.credly.com/badges/d133ed2d-d8e5-4eed-b741-3ff7a8838f80/public_url" target='_blank'>
-                <Image className='certifications' src="https://static.wixstatic.com/media/249783_1a05b0ebae2042858b54a09d69ee67d0~mv2.png" alt='Microsoft certified Azure Fundamentals.' />
+                <Image className='certificates' src="https://static.wixstatic.com/media/249783_1a05b0ebae2042858b54a09d69ee67d0~mv2.png" alt='Microsoft certified Azure Fundamentals.' />
               </Button>
               <Button variant="link" href="https://www.credly.com/badges/cd80d417-a02c-417b-bff5-b2c1dff94126/public_url" target='_blank'>
-                <Image className='certifications' src="https://static.wixstatic.com/media/249783_cb2c77e2cefd40e096f0d2268ab0c459~mv2.png" alt='Microsoft certified Azure AI Fundamentals.' />
+                <Image className='certificates' src="https://static.wixstatic.com/media/249783_cb2c77e2cefd40e096f0d2268ab0c459~mv2.png" alt='Microsoft certified Azure AI Fundamentals.' />
               </Button>
             </Col>
         </Row>
-        <Row>
-        </Row>
-
-        
-        </Container>
+      </Container>
     </main>
   );
 }

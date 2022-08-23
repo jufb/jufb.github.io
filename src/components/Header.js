@@ -18,8 +18,9 @@ export const Header = () => {
           <Nav>
             <Nav.Link href="#Home">Home</Nav.Link>
             <Nav.Link href="#About">About</Nav.Link>
-            <Nav.Link href="#Projects">Projects</Nav.Link>
             <Nav.Link href="#Skills">Skills</Nav.Link>
+            <Nav.Link href="#Projects">Projects</Nav.Link>
+            <Nav.Link href="#Contact">Contact</Nav.Link>
           </Nav> 
         </Navbar.Collapse>
       </Container>

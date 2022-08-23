@@ -3,8 +3,8 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { Home } from './views/home';
 import { About } from './views/about';
+import { Skills } from './views/skills';
 import { Projects } from './views/projects';
-import { Skills } from './views/projectSkills';
 import { Contact } from './views/contact';
 
 function App() {
@@ -13,8 +13,8 @@ function App() {
       <Header />
       <Home />
       <About />
-      <Projects />
       <Skills />
+      <Projects />
       <Contact />
       <Footer year={new Date().getFullYear()} />
     </div>

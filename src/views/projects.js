@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Container, Card, Button } from 'react-bootstrap';
+import { Container, Card, Button, Collapse } from 'react-bootstrap';
 import { BoxArrowUpRight } from 'react-bootstrap-icons';
 import dataProjects from './projects.json';
 import dataProjectSkills from './projectSkills.json';
@@ -61,8 +61,8 @@ export function Projects() {
 
           ))}
         </div>
-        
-        {moreProjects ?
+        <>
+        <Collapse in={moreProjects}>
           <div className="group-card">
 
             {dataProjectSkills.map(element => (
@@ -81,10 +81,9 @@ export function Projects() {
             ))}
 
           </div>
-          : null }
-
+        </Collapse>
         <p></p><Button onClick={onClick} variant="primary">{view}</Button>
-
+        </>
       </Container>
 
     </main> 

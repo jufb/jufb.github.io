@@ -326,9 +326,9 @@ main {
 }
 
 #About {
-	background-image: url("https://static.wixstatic.com/media/249783_f4b52009c72f46cc98beb817dee23b7b~mv2.jpeg");
-	background-size: 250px;
-	padding-bottom: 12rem;
+	background-image: url("https://raw.githubusercontent.com/jufb/jufb.github.io/568bba5dca33b35697e5e4b20fe476c660bc64e3/src/assets/photo_juliana.jpg");
+	background-size: 400px;
+	padding-bottom: 30rem;
 	background-repeat: no-repeat;
 	background-position: bottom 0 left 0;
 	text-align: justify;

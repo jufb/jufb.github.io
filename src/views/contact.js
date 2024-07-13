@@ -6,7 +6,7 @@ export function Contact() {
     <main id="Contact" role="main" className='bg-light text-center'>
       <Container className='jumbotron'>
         <h1>Contact</h1>
-        <h4>Do you want to hire me? I am eager to answer your questions!</h4>
+        <h4>Want to connect? Choose your path:</h4>
       </Container>
       <Container id="Contacts">
         <Button variant="link" href="mailto:fborges.j@gmail.com" target='_blank'>

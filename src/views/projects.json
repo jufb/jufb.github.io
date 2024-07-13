@@ -24,12 +24,12 @@
     {
         "id" : "3",
         "featured" : true,
-        "title" : "C# Apps",
-        "text" : "Calculator, Stopwatch, Guess The Number game, Palindrome, and Bank.",
-        "github" : "https://github.com/jufb/C-Solutions",
-        "url" : "https://replit.com/@jufb/Calculator?v=1",
-        "screenreader" : "C Sharp", 
-        "img" : "https://images.pexels.com/photos/5412194/pexels-photo-5412194.jpeg?cs=srgb&dl=pexels-karolina-grabowska-5412194.jpg&fm=jpg&w=350&h=250",
-        "imgalt" : "Calculator."
+        "title" : "Farmer Goes Rogue",
+        "text" : "One of my early game creations made with Unity and C#.",
+        "github" : "https://github.com/jufb/FarmerGoesRogue",
+        "url" : "https://play.unity.com/mg/other/webgl-builds-303049",
+        "screenreader" : "Game made in Unity and C Sharp", 
+        "img" : "https://raw.githubusercontent.com/jufb/FarmerGoesRogue/main/Cover.png",
+        "imgalt" : "Unity Game Farmer Goes Rogue cover"
     }
 ]

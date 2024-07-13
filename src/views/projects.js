@@ -66,18 +66,32 @@ export function Projects() {
           <div className="group-card">
 
             {dataProjectSkills.map(element => (
-              <Card key={element.id}>
-                <span className='sr-only'>Open {element.screenreader}</span>
-                <Card.Link href={element.url} target="_blank">
+
+                <Card key={element.id} className={element.featured ? 'featured' : undefined}>
+                {element.img.length > 0 &&
                   <div className="image-box">
                     <Card.Img alt={element.imgalt} src={element.img} />
                   </div>
-                  <Card.Title>{element.title}</Card.Title>
-                  <Card.Body>
-                    <Card.Text>{element.text}</Card.Text>
-                  </Card.Body>
-                </Card.Link>
-              </Card>
+                }
+                <Card.Title>{element.title}</Card.Title>
+                <Card.Body>
+                  <Card.Text>{element.text}</Card.Text>
+                </Card.Body>
+                <Card.Footer className="card-footer-transparent">
+                  <Button variant="dark" href={element.github} target="_blank">
+                    Open <span className='sr-only'>{element.screenreader}</span> Code
+                  </Button>&nbsp;
+
+                  {element.url &&
+                    <Button variant="secondary" href={element.url} target="_blank">
+                      View <span className='sr-only'>{element.screenreader}</span> Live
+                    </Button>
+                  }
+
+                </Card.Footer>
+                </Card>
+
+
             ))}
 
           </div>
